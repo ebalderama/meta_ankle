@@ -1,0 +1,402 @@
+\documentclass[10pt]{article}\usepackage[]{graphicx}\usepackage[]{color}
+%% maxwidth is the original width if it is less than linewidth
+%% otherwise use linewidth (to make sure the graphics do not exceed the margin)
+\makeatletter
+\def\maxwidth{ %
+  \ifdim\Gin@nat@width>\linewidth
+    \linewidth
+  \else
+    \Gin@nat@width
+  \fi
+}
+\makeatother
+
+\definecolor{fgcolor}{rgb}{0.345, 0.345, 0.345}
+\newcommand{\hlnum}[1]{\textcolor[rgb]{0.686,0.059,0.569}{#1}}%
+\newcommand{\hlstr}[1]{\textcolor[rgb]{0.192,0.494,0.8}{#1}}%
+\newcommand{\hlcom}[1]{\textcolor[rgb]{0.678,0.584,0.686}{\textit{#1}}}%
+\newcommand{\hlopt}[1]{\textcolor[rgb]{0,0,0}{#1}}%
+\newcommand{\hlstd}[1]{\textcolor[rgb]{0.345,0.345,0.345}{#1}}%
+\newcommand{\hlkwa}[1]{\textcolor[rgb]{0.161,0.373,0.58}{\textbf{#1}}}%
+\newcommand{\hlkwb}[1]{\textcolor[rgb]{0.69,0.353,0.396}{#1}}%
+\newcommand{\hlkwc}[1]{\textcolor[rgb]{0.333,0.667,0.333}{#1}}%
+\newcommand{\hlkwd}[1]{\textcolor[rgb]{0.737,0.353,0.396}{\textbf{#1}}}%
+\let\hlipl\hlkwb
+
+\usepackage{framed}
+\makeatletter
+\newenvironment{kframe}{%
+ \def\at@end@of@kframe{}%
+ \ifinner\ifhmode%
+  \def\at@end@of@kframe{\end{minipage}}%
+  \begin{minipage}{\columnwidth}%
+ \fi\fi%
+ \def\FrameCommand##1{\hskip\@totalleftmargin \hskip-\fboxsep
+ \colorbox{shadecolor}{##1}\hskip-\fboxsep
+     % There is no \\@totalrightmargin, so:
+     \hskip-\linewidth \hskip-\@totalleftmargin \hskip\columnwidth}%
+ \MakeFramed {\advance\hsize-\width
+   \@totalleftmargin\z@ \linewidth\hsize
+   \@setminipage}}%
+ {\par\unskip\endMakeFramed%
+ \at@end@of@kframe}
+\makeatother
+
+\definecolor{shadecolor}{rgb}{.97, .97, .97}
+\definecolor{messagecolor}{rgb}{0, 0, 0}
+\definecolor{warningcolor}{rgb}{1, 0, 1}
+\definecolor{errorcolor}{rgb}{1, 0, 0}
+\newenvironment{knitrout}{}{} % an empty environment to be redefined in TeX
+
+\usepackage{alltt}
+
+%======================================================%
+%-----------------------------------------------------------------------------------------------%
+%****************************************************************************%
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++%
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~%
+%  My Packages and Commands %
+
+%\usepackage{fullpage}
+\usepackage{setspace}
+\usepackage[left=1in,top=1in,right=1in]{geometry}
+\pdfpagewidth 8.5in
+\pdfpageheight 11in 
+\setlength{\textheight}{9in}
+
+%PLOTS
+\usepackage{graphicx} %for importing graphics files
+\usepackage{epstopdf}%for .eps files
+\graphicspath{{figures/}}
+
+% BIBLIOGRAPHY
+\usepackage[authoryear]{natbib}
+\bibpunct{(}{)}{;}{a}{}{,}
+%\linespread{1.5}
+
+\long\def\symbolfootnote[#1]#2{\begingroup
+\def\thefootnote{\fnsymbol{footnote}}\footnote[#1]{#2}\endgroup}
+
+
+\usepackage{amssymb, amsthm, amsmath, blindtext, enumitem}
+
+
+%============================================
+%============================================
+%My New Commands
+%============================================
+\newcommand{\balpha}{\mbox{\boldmath $\alpha$} }
+\newcommand{\bbeta}{\mbox{\boldmath $\beta$} }
+\newcommand{\bdelta}{\mbox{\boldmath $\delta$} }
+\newcommand{\bepsilon}{\mbox{\boldmath $\epsilon$} }
+\newcommand{\bgamma}{\mbox{\boldmath $\gamma$} }
+\newcommand{\blambda}{\mbox{\boldmath $\lambda$} }
+\newcommand{\bmu}{\mbox{\boldmath $\mu$} }
+\newcommand{\bnu}{\mbox{\boldmath $\nu$} }
+\newcommand{\bomega}{\mbox{\boldmath $\omega$} }
+\newcommand{\bphi}{\mbox{\boldmath $\phi$} }
+\newcommand{\bpsi}{\mbox{\boldmath $\psi$} }
+\newcommand{\brho}{\mbox{\boldmath $\rho$} }
+\newcommand{\bsigma}{\mbox{\boldmath $\sigma$} }
+\newcommand{\btau}{\mbox{\boldmath $\tau$} }
+\newcommand{\btheta}{\mbox{\boldmath $\theta$} }
+\newcommand{\bupsilon}{\mbox{\boldmath $\upsilon$} }
+\newcommand{\bxi}{\mbox{\boldmath $\xi$} }
+\newcommand{\bzeta}{\mbox{\boldmath $\zeta$} }
+\newcommand{\bDelta}{\mbox{\boldmath $\Delta$} }
+\newcommand{\bGamma}{\mbox{\boldmath $\Gamma$} }
+\newcommand{\bLambda}{\mbox{\boldmath $\Lambda$} }
+\newcommand{\bPhi}{\mbox{\boldmath $\Phi$} }
+\newcommand{\bSigma}{\mbox{\boldmath $\Sigma$} }
+\newcommand{\bTheta}{\mbox{\boldmath $\Theta$} }
+
+\newcommand{\bfa}{\mbox{\bf a} }
+\newcommand{\bfb}{\mbox{\bf b} }
+\newcommand{\bfc}{\mbox{\bf c} }
+\newcommand{\bfd}{\mbox{\bf d} }
+\newcommand{\bfe}{\mbox{\bf e} }
+\newcommand{\bff}{\mbox{\bf f} }
+\newcommand{\bfg}{\mbox{\bf g} }
+\newcommand{\bfh}{\mbox{\bf h} }
+\newcommand{\bfi}{\mbox{\bf i} }
+\newcommand{\bfj}{\mbox{\bf j} }
+\newcommand{\bfk}{\mbox{\bf k} }
+\newcommand{\bfl}{\mbox{\bf l} }
+\newcommand{\bfm}{\mbox{\bf m} }
+\newcommand{\bfn}{\mbox{\bf n} }
+\newcommand{\bfo}{\mbox{\bf o} }
+\newcommand{\bfp}{\mbox{\bf p} }
+\newcommand{\bfq}{\mbox{\bf q} }
+\newcommand{\bfr}{\mbox{\bf r} }
+\newcommand{\bfs}{\mbox{\bf s} }
+\newcommand{\bft}{\mbox{\bf t} }
+\newcommand{\bfu}{\mbox{\bf u} }
+\newcommand{\bfv}{\mbox{\bf v} }
+\newcommand{\bfw}{\mbox{\bf w} }
+\newcommand{\bfx}{\mbox{\bf x} }
+\newcommand{\bfy}{\mbox{\bf y} }
+\newcommand{\bfz}{\mbox{\bf z} }
+\newcommand{\bfA}{\mbox{\bf A} }
+\newcommand{\bfB}{\mbox{\bf B} }
+\newcommand{\bfC}{\mbox{\bf C} }
+\newcommand{\bfD}{\mbox{\bf D} }
+\newcommand{\bfE}{\mbox{\bf E} }
+\newcommand{\bfF}{\mbox{\bf F} }
+\newcommand{\bfG}{\mbox{\bf G} }
+\newcommand{\bfH}{\mbox{\bf H} }
+\newcommand{\bfI}{\mbox{\bf I} }
+\newcommand{\bfJ}{\mbox{\bf J} }
+\newcommand{\bfK}{\mbox{\bf K} }
+\newcommand{\bfL}{\mbox{\bf L} }
+\newcommand{\bfM}{\mbox{\bf M} }
+\newcommand{\bfN}{\mbox{\bf N} }
+\newcommand{\bfO}{\mbox{\bf O} }
+\newcommand{\bfP}{\mbox{\bf P} }
+\newcommand{\bfQ}{\mbox{\bf Q} }
+\newcommand{\bfR}{\mbox{\bf R} }
+\newcommand{\bfS}{\mbox{\bf S} }
+\newcommand{\bfT}{\mbox{\bf T} }
+\newcommand{\bfU}{\mbox{\bf U} }
+\newcommand{\bfV}{\mbox{\bf V} }
+\newcommand{\bfW}{\mbox{\bf W} }
+\newcommand{\bfX}{\mbox{\bf X} }
+\newcommand{\bfY}{\mbox{\bf Y} }
+\newcommand{\bfZ}{\mbox{\bf Z} }
+
+\newcommand{\calA}{{\cal A}}
+\newcommand{\calB}{{\cal B}}
+\newcommand{\calC}{{\cal C}}
+\newcommand{\calD}{{\cal D}}
+\newcommand{\calE}{{\cal E}}
+\newcommand{\calF}{{\cal F}}
+\newcommand{\calG}{{\cal G}}
+\newcommand{\calH}{{\cal H}}
+\newcommand{\calI}{{\cal I}}
+\newcommand{\calJ}{{\cal J}}
+\newcommand{\calK}{{\cal K}}
+\newcommand{\calL}{{\cal L}}
+\newcommand{\calM}{{\cal M}}
+\newcommand{\calN}{{\cal N}}
+\newcommand{\calO}{{\cal O}}
+\newcommand{\calP}{{\cal P}}
+\newcommand{\calQ}{{\cal Q}}
+\newcommand{\calR}{{\cal R}}
+\newcommand{\calS}{{\cal S}}
+\newcommand{\calT}{{\cal T}}
+\newcommand{\calU}{{\cal U}}
+\newcommand{\calV}{{\cal V}}
+\newcommand{\calW}{{\cal W}}
+\newcommand{\calX}{{\cal X}}
+\newcommand{\calY}{{\cal Y}}
+\newcommand{\calZ}{{\cal Z}}
+
+\renewcommand{\Hat}{\widehat}
+\renewcommand{\Bar}{\overline}
+\renewcommand{\Tilde}{\widetilde}
+
+\newcommand{\iid}{\stackrel{iid}{\sim}}
+\newcommand{\indep}{\overset{ind}{\sim}}
+%\newcommand{\argmax}{{\mathop{\rm arg\, max}}}
+%\newcommand{\argmin}{{\mathop{\rm arg\, min}}}
+\newcommand{\Frechet}{ \mbox{Fr$\acute{\mbox{e}}$chet} }
+\newcommand{\Matern}{ \mbox{Mat$\acute{\mbox{e}}$rn} }
+
+\providecommand{\argmin}[1]{\underset{{#1}}{\rm \ argmin}} 
+\providecommand{\argmax}[1]{\underset{{#1}}{\rm \ argmax}} 
+
+\newcommand{\seteq}{\stackrel{set}{\ =\ }}
+
+
+\newcommand{\bfig}{\begin{figure}}
+\newcommand{\efig}{\end{figure}}
+\newcommand{\beqx}{\begin{equation*}}
+\newcommand{\eeqx}{\end{equation*}}
+\newcommand{\beq}{\begin{equation}}
+\newcommand{\eeq}{\end{equation}}
+\newcommand{\beqa}{\begin{eqnarray}}
+\newcommand{\eeqa}{\end{eqnarray}}
+\newcommand{\beqax}{\begin{eqnarray*}}
+\newcommand{\eeqax}{\end{eqnarray*}}
+\newcommand{\beqn}{\begin{dmath}}
+\newcommand{\eeqn}{\end{dmath}}
+\newcommand{\beqnx}{\begin{dmath*}}
+\newcommand{\eeqnx}{\end{dmath*}}
+
+\let\originalleft\left
+\let\originalright\right
+\renewcommand{\left}{\mathopen{}\mathclose\bgroup\originalleft}
+\renewcommand{\right}{\aftergroup\egroup\originalright}
+
+\providecommand{\itbf}[1]{\textit{\textbf{#1}}} 
+\providecommand{\abs}[1]{\left\lvert#1\right\rvert} 
+\providecommand{\norm}[1]{\left\lVert#1\right\rVert}
+
+\newcommand{\cond}{\,\left\vert\vphantom{}\right.}
+\newcommand{\Cond}{\,\Big\vert\vphantom{}\Big.}
+\newcommand{\COND}{\,\Bigg\vert\vphantom{}\Bigg.}
+
+\providecommand{\paren}[1]{\left(#1\right)} 
+\providecommand{\Paren}[1]{\Big(#1\Big)}
+\providecommand{\PAREN}[1]{\bigg(#1\bigg)} 
+\providecommand{\bracket}[1]{\left[ #1 \right]} 
+\providecommand{\Bracket}[1]{\Big[ #1 \Big]} 
+\providecommand{\BRACKET}[1]{\bigg[ #1 \bigg]} 
+\providecommand{\curlybrace}[1]{\left\{ #1 \right\}} 
+\providecommand{\Curlybrace}[1]{\Big\{ #1 \Big\}} 
+\providecommand{\CURLYBRACE}[1]{\bigg\{ #1 \bigg\}} 
+
+\newcommand{\Bern}{\mbox{{\sf Bern}}}
+\newcommand{\Bernoulli}{\mbox{{\sf Bernoulli}}}
+\newcommand{\Beta}{\mbox{{\sf Beta}}}
+\newcommand{\Bin}{\mbox{{\sf Bin}}}
+\newcommand{\Binomial}{\mbox{{\sf Binomial}}}
+\newcommand{\DE}{\mbox{{\sf DE}}}
+\newcommand{\Exponential}{\mbox{{\sf Exponential}}}
+\newcommand{\F}{\mbox{{\sf F}}}
+\newcommand{\Gam}{\mbox{{\sf Gamma}}}
+\newcommand{\GP}{\mbox{{\sf GP}}}
+\newcommand{\GPD}{\mbox{{\sf GPD}}}
+\newcommand{\Geom}{\mbox{{\sf Geom}}}
+\newcommand{\Geometric}{\mbox{{\sf Geometric}}}
+\newcommand{\HyperGeom}{\mbox{{\sf HyperGeom}}}
+\newcommand{\HyperGeometric}{\mbox{{\sf HyperGeometric}}}
+\newcommand{\InverseGam}{\mbox{{\sf InverseGamma}}}
+\newcommand{\InvWish}{\mbox{{\sf InvWish}}}
+\newcommand{\MVN}{\mbox{{\sf MVN}}}
+\newcommand{\NB}{\mbox{{\sf NB}}}
+\newcommand{\NegBin}{\mbox{{\sf NegBin}}}
+\newcommand{\NegativeBinomial}{\mbox{{\sf NegativeBinomial}}}
+\newcommand{\Normal}{\mbox{{\sf Normal}}}
+\newcommand{\Pois}{\mbox{{\sf Pois}}}
+\newcommand{\Poisson}{\mbox{{\sf Poisson}}}
+\newcommand{\Unif}{\mbox{{\sf Unif}}}
+\newcommand{\Uniform}{\mbox{{\sf Uniform}}}
+\newcommand{\Weibull}{\mbox{{\sf Weibull}}}
+
+\renewcommand{\P}{{\sf P}}
+\newcommand{\Prob}{{\sf Prob}}
+\newcommand{\median}{{\mathop{\rm median}}}
+\newcommand{\E}{\mathsf{E}}
+\newcommand{\V}{\mathsf{V}}
+\newcommand{\VAR}{\mathsf{VAR}}
+\newcommand{\COV}{\mathsf{COV}}
+
+\newcommand{\Ho}{{\calH_0}}
+\newcommand{\Hoc}{{\calH_0\colon}}
+\newcommand{\Hone}{{\calH_1}}
+\newcommand{\Honec}{{\calH_1\colon}}
+\newcommand{\Ha}{{\calH_a}}
+\newcommand{\Hac}{{\calH_a\colon}}
+\newcommand{\HA}{{\calH_A}}
+\newcommand{\HAc}{{\calH_A\colon}}
+
+
+\newcommand{\Ind}{\mathds{1}}
+\newcommand{\zerovect}{\mbox{\bf 0}}
+\newcommand{\onesvect}{\mbox{\bf 1}}
+\providecommand{\real}[1]{\mathbb{#1}}
+\newcommand{\Real}{\mathbb{R}}
+\newcommand{\ppd}{\mathcal{P}}
+\DeclareMathOperator{\logit}{logit}
+\DeclareMathOperator{\expit}{expit}
+\DeclareMathOperator{\dint}{\displaystyle\int}
+\DeclareMathOperator{\dsum}{\displaystyle\sum}
+
+%============================================
+%My New Commands
+%============================================
+%============================================
+
+
+
+
+\newcommand{\bitemize}{\begin{itemize}\setlength{\itemsep}{1pt}\setlength{\parskip}{1pt}}
+\newcommand{\eitemize}{\end{itemize}}
+\newcommand{\benum}{\begin{enumerate}\setlength{\itemsep}{1pt}\setlength{\parskip}{1pt}}
+\newcommand{\eenum}{\end{enumerate}}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+
+%\lhead{\footnotesize \parbox{11cm}{Custom left-head-note} }
+\cfoot{}
+\lfoot{\footnotesize \parbox{11cm}{}}
+\rfoot{\footnotesize Page \thepage\ }
+%\rfoot{\footnotesize Page \thepage\ of \pageref{LastPage}}
+%\renewcommand\headheight{24pt}
+\renewcommand\footrulewidth{0.4pt}
+
+
+\usepackage[colorlinks=false,
+          %  pdfborder={0 0 0},
+            ]{hyperref}
+
+
+%  My Packages and Commands %
+%======================================================%
+%-----------------------------------------------------------------------------------------------%
+%****************************************************************************%
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++%
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~%
+%______________________________________________________%
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\begin{document}%\linenumbers
+
+
+
+
+
+\title{\bf Bayesian Meta-Analysis}
+\author{Earvin Balderama \and Leandra Knapp}
+%\date{}
+\maketitle
+
+
+%============================================
+%============================================
+\abstract{Abstract goes here}
+
+
+{\bf Keywords}: 
+%============================================
+%============================================
+
+
+%============================================
+\section{Introduction}
+%============================================
+
+In the history of science, the same questions are frequently studied by multiple unrelated parties. For example, Charles Darwin and Alfred Wallace, both naturalists in the 1800s, separately developed similar theories of evolution by natural selection, and published a paper together on the subject in 1858~\citep{Kuhn2013}. In a similar fashion, modern evidence-based medicine tends to be based on multiple, similar, independent studies, which then undergo meta-analysis~\citep{Haidich2010}.
+	The goal of a meta-analysis is essentially to combine the results of similar studies in order to determine some true overall parameter. One of the most common varieties seeks to determine the true effect size of an experiment on an outcome measure~\citep{Verde2010}, where effect size is simply the magnitude of the effect that a treatment has on experimental results when compared to the results of a control group (commonly a standard difference of means, odds ratio, or relative risk ratio), and the outcome measure is the quantitative result of interest~\citep{Sullivan2012}. A simple example of these concepts would be determining the amount (effect size) that Drug X (treatment) lowers blood pressure (outcome measure), as compared to placebo (control). A meta-analysis would use several of these studies together to determine what the actual impact of Drug X is on blood pressure, compared to placebo's impact.
+	The ultimate goal of this project was to develop methods of Bayesian meta-analysis that can handle missing values, including but not limited to the absence of a control group. The especial appeal of Bayesian methods lies largely in the interpretability of the results: instead of the frequentist framework that there is a fixed parameter and the data random, the Bayesian framework holds that the data are fixed and the parameters have a certain probability of being a particular value (or of being within a range of values). Thus, a frequentist might create 95\% confidence intervals around a mean, leading to an interpretation that 95\% of similarly-created intervals contain the true mean value, while the analogous Bayesian 95\% credible interval would be interpreted as the interval within which it is 95\% likely that the true mean falls.
+
+%============================================
+%\section{Data}
+%============================================
+
+
+%============================================
+\section{Methods}
+%============================================
+
+To become more comfortable with meta-analysis in practice, the decision was made to use the and ``metafor" package in R to perform simple meta-analyses on a) mean age of patients who have ankle surgery, and b) proportion of post-surgical ankle failures. 
+
+To do a meta-analysis on the mean age, the "escalc" function was used from the "metafor" package, which outputs the effect size or outcome measure for the variable(s) in question (in this case age), along with the standard deviation. This step was followed by using the rma.uni from the metafor package, which performs the meta-analysis to find the true mean age; however, this function excludes the observations with missing standard deviations~\citep{Viecht2010}, making it an inappropriate function for this research project as a whole.
+	A similar process was used to run meta-analysis on the odds of post-surgical ankle failure; this time, the measure used in the escalc function was logit transformed odds of post-surgical failure (by specifying measure= "PLO"), and the rma.uni function was able to use each study in calculating an overall failure rate - using inverse of variance to weight the contribution of each proportion~\citep{Gelman2013}.
+
+
+
+
+
+
+%========================
+%\section{Results}
+%========================
+
+
+\bibliographystyle{asa}
+\bibliography{metapaper1}
+
+
+
+\end{document}
