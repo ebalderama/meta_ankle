@@ -20,7 +20,8 @@ poisMCMC <- function(Y,N,X=NULL,n.iters=4000,prior_beta_mn=0,prior_beta_sd=100, 
   #ok, we already have p - what are/where do we specify prior beta mean & standard deviation?
   #if left out, they default to 0, but I'm not sure if that's valid (and clearly var names are inserted)
   #beta will be p elements long
-  beta <-rnorm(p,prior_beta_mn,prior_beta_sd)
+  #beta <-rnorm(p,prior_beta_mn,prior_beta_sd)
+  beta <- rep(0,p)
   XB <- X %*% beta
   
   #current log likelihood
@@ -54,7 +55,7 @@ poisMCMC <- function(Y,N,X=NULL,n.iters=4000,prior_beta_mn=0,prior_beta_sd=100, 
       if(log(runif(1))<R){
         acc[j]<-acc[j]+1
         beta[j] <- canbeta
-        XB <-canbeta
+        XB <- canXB
         curll <- canll
       }
     }
@@ -76,16 +77,21 @@ poisMCMC <- function(Y,N,X=NULL,n.iters=4000,prior_beta_mn=0,prior_beta_sd=100, 
       par(mfrow=c(2,2))
       #the following (commented) line was in addition to the line below it: identical minus the "if"
       #Both versions were there from last week.
-      plot(keep.beta[1:iter,1],type="s",ylab="",main=bquote(beta[0]))
-      if(p>1) plot(keep.beta[1:iter,2],type="s",ylab="",main=bquote(beta[1]))
+      plot(exp(keep.beta[1:iter,1]),type="s",ylab="",main=bquote(exp(beta[0])))
+      if(p>1) plot(exp(keep.beta[1:iter,2]),type="s",ylab="",main=bquote(exp(beta[1])))
+      if(p>2) plot(exp(keep.beta[1:iter,3]),type="s",ylab="",main=bquote(exp(beta[2])))
       plot(keep.ll[1:iter],type="s",ylab="",main="log-likelihood")
       }
   }
   #output
-  list(beta=keep.beta,ll=keep.ll, mu=N*exp(X*beta))
+  list(beta = keep.beta[-(1:burn),],
+       ll   = keep.ll[-(1:burn)], 
+       mu   = N*exp(XB)
+       )
 }
 
 #Let's try it!!!
-poisMCMC(Y=comp.ovr,N=n,X=cbind(rep(1,38),as.numeric(taarows),as.numeric(aaorows),as.numeric(aaarows)))
-run<-poisMCMC(Y=failx,N=rep(1,38),X=cbind(1,rnorm(length(total))),n.iters=5000)
+
+run<-poisMCMC(Y=counts345[[10]],N=n,X=cbind(rep(1,38),as.numeric(aaorows),as.numeric(aaarows)),n.iters=5000)
 summary(run$beta)
+
