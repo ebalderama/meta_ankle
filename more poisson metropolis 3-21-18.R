@@ -13,6 +13,8 @@ loglike<-function(Y,N,XB){
 #N is the offset term. Aka, number of ankles in this case
 poisMCMC <- function(Y,N,X=NULL,n.iters=4000,prior_beta_mn=0,prior_beta_sd=100, burn=0.5*n.iters){
 
+
+  
   if(is.null(X)) X<-matrix(1,length(Y),1)
   #p for number of parameters, I think (in this case # of dummy variables for prosthesis type)
   p <- ncol(X)
@@ -23,6 +25,14 @@ poisMCMC <- function(Y,N,X=NULL,n.iters=4000,prior_beta_mn=0,prior_beta_sd=100, 
   #beta <-rnorm(p,prior_beta_mn,prior_beta_sd)
   beta <- rep(0,p)
   XB <- X %*% beta
+  
+  mis<-anyNA(Y)
+  
+  if(mis) {
+    m<-which(is.na(Y))
+    Y[m]<-rpois(length(m),exp(log(N[m])+XB[m]))
+    keep.ymis<-matrix(NA,n.iters,length(m))
+  }
   
   #current log likelihood
   #make sure X has a column of ones
@@ -60,6 +70,12 @@ poisMCMC <- function(Y,N,X=NULL,n.iters=4000,prior_beta_mn=0,prior_beta_sd=100, 
       }
     }
     
+    if(mis) {
+      Y[m]<-rpois(length(m),exp(log(N[m])+XB[m]))
+      #keep track of missing Ys
+      keep.ymis[iter,]<-Y[m]
+    }
+    
     #keep track of stuff
     keep.beta[iter,] <- beta
     keep.ll[iter]<-curll
@@ -84,14 +100,28 @@ poisMCMC <- function(Y,N,X=NULL,n.iters=4000,prior_beta_mn=0,prior_beta_sd=100, 
       }
   }
   #output
-  list(beta = keep.beta[-(1:burn),],
+  output <- list(beta = keep.beta[-(1:burn),],
        ll   = keep.ll[-(1:burn)], 
        mu   = N*exp(XB)
        )
+  if(mis) output$ymis= keep.ymis[-(1:burn),]
+  return(output)
 }
 
 #Let's try it!!!
+throwaway<-counts345[[10]]
+throwaway[c(1,24,33)]<-NA
+#run<-poisMCMC(Y=counts345[[10]],N=n,X=cbind(rep(1,38),as.numeric(aaorows),as.numeric(aaarows)),n.iters=5000)
+#run2<-poisMCMC(Y=counts345[[10]],N=n,X=cbind(rep(1,38),as.numeric(taarows),as.numeric(aaarows)),n.iters=10000)
+#run3<-poisMCMC(Y=counts345[[9]],N=n,X=cbind(rep(1,38),as.numeric(aaorows),as.numeric(aaarows)),n.iters=10000)
+#run3<-poisMCMC(Y=counts345[[9]],N=n,n.iters=10000)
+run2<-poisMCMC(Y=throwaway,N=n,X=cbind(rep(1,38),as.numeric(taarows),as.numeric(aaarows)),n.iters=10000)
 
-run<-poisMCMC(Y=counts345[[10]],N=n,X=cbind(rep(1,38),as.numeric(aaorows),as.numeric(aaarows)),n.iters=5000)
-summary(run$beta)
+#summary(run$beta)
+#summary(exp(run$beta))
 
+summary(run2$beta)
+summary(exp(run2$beta))
+
+#posterior distributions of missing data
+summary(run2$ymis)
