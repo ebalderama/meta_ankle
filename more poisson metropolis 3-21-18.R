@@ -24,6 +24,12 @@ poisMCMC <- function(Y,N,X=NULL,n.iters=4000,prior_beta_mn=0,prior_beta_sd=100, 
   beta <- rep(0,p)
   XB <- X %*% beta
   
+  
+  if(anyNA(Y)){
+    miss <- which(is.na(Y))
+    Y[miss] <- rpois(length(miss), exp(log(N[miss]) + XB))
+  }
+  
   #current log likelihood
   #make sure X has a column of ones
   curll <- loglike(Y,N,XB)
@@ -92,6 +98,9 @@ poisMCMC <- function(Y,N,X=NULL,n.iters=4000,prior_beta_mn=0,prior_beta_sd=100, 
 
 #Let's try it!!!
 
-run<-poisMCMC(Y=counts345[[10]],N=n,X=cbind(rep(1,38),as.numeric(aaorows),as.numeric(aaarows)),n.iters=5000)
+run<-poisMCMC(Y=counts345[[10]],N=n,X=cbind(rep(1,38),as.numeric(taarows),as.numeric(aaarows)),n.iters=15000)
 summary(run$beta)
-
+summary(exp(run$beta))
+quantile(exp(run$beta[,1]), c(.05,.95))
+quantile(exp(run$beta[,2]), c(.05,.95))
+quantile(exp(run$beta[,3]), c(.05,.95))
