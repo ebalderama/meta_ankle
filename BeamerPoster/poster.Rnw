@@ -1,0 +1,707 @@
+\documentclass[final]{beamer}
+\usepackage{grffile}
+\mode<presentation>{\usetheme{I6pd2}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% =====================================
+% Packages
+% =====================================
+
+%FORMATTING
+\usepackage[normalem]{ulem} 
+%for underline, use \uline{ }
+%for strikethrough, use \sout{ }
+
+%COLOR
+\usepackage{color}
+%\usepackage[usenames,dvipsnames]{color}
+\usepackage{colortbl} %for table colors
+
+%MATH
+\usepackage{amssymb, amsthm, amsmath}
+\usepackage{bm} %allows bold greek letters
+\usepackage{dsfont} %\mathds{1} for indicator function
+\usepackage{breqn} %for breaking up long equations
+
+%PLOTS
+\usepackage{graphicx} %for importing graphics files
+\usepackage{epstopdf}%for .eps files
+
+%TABLES
+\usepackage{bigstrut}
+\usepackage{tabularx}
+\usepackage{longtable}
+\usepackage{multirow}
+\usepackage{multicol} % for multicolumn layouts
+\usepackage{afterpage}
+
+%VERBATIM
+\usepackage{verbatim} %doesnt seem to work with beamer?
+\usepackage{fancyvrb} %used for tab spacing in verbatim
+\usepackage{listings} %better than fancyvrb in beamer?
+\lstset{breaklines=true,basicstyle=\ttfamily\scriptsize} %set font of verbatim thorughout
+\def\verb{\lstinline[basicstyle=\ttfamily\small,keywordstyle={}]} %use verb, not lstinline
+\def\rcode{\lstinline[basicstyle=\ttfamily\bfseries\small,keywordstyle={}]} 
+
+\newcommand{\balpha}{\mbox{\boldmath $\alpha$} }
+\newcommand{\bbeta}{\mbox{\boldmath $\beta$} }
+\newcommand{\bdelta}{\mbox{\boldmath $\delta$} }
+\newcommand{\bepsilon}{\mbox{\boldmath $\epsilon$} }
+\newcommand{\bgamma}{\mbox{\boldmath $\gamma$} }
+\newcommand{\blambda}{\mbox{\boldmath $\lambda$} }
+\newcommand{\bmu}{\mbox{\boldmath $\mu$} }
+\newcommand{\bnu}{\mbox{\boldmath $\nu$} }
+\newcommand{\bomega}{\mbox{\boldmath $\omega$} }
+\newcommand{\bphi}{\mbox{\boldmath $\phi$} }
+\newcommand{\bpsi}{\mbox{\boldmath $\psi$} }
+\newcommand{\brho}{\mbox{\boldmath $\rho$} }
+\newcommand{\bsigma}{\mbox{\boldmath $\sigma$} }
+\newcommand{\btau}{\mbox{\boldmath $\tau$} }
+\newcommand{\btheta}{\mbox{\boldmath $\theta$} }
+\newcommand{\bupsilon}{\mbox{\boldmath $\upsilon$} }
+\newcommand{\bxi}{\mbox{\boldmath $\xi$} }
+\newcommand{\bzeta}{\mbox{\boldmath $\zeta$} }
+\newcommand{\bDelta}{\mbox{\boldmath $\Delta$} }
+\newcommand{\bGamma}{\mbox{\boldmath $\Gamma$} }
+\newcommand{\bLambda}{\mbox{\boldmath $\Lambda$} }
+\newcommand{\bPhi}{\mbox{\boldmath $\Phi$} }
+\newcommand{\bSigma}{\mbox{\boldmath $\Sigma$} }
+\newcommand{\bTheta}{\mbox{\boldmath $\Theta$} }
+
+\newcommand{\bfa}{\mbox{\bf a} }
+\newcommand{\bfb}{\mbox{\bf b} }
+\newcommand{\bfc}{\mbox{\bf c} }
+\newcommand{\bfd}{\mbox{\bf d} }
+\newcommand{\bfe}{\mbox{\bf e} }
+\newcommand{\bff}{\mbox{\bf f} }
+\newcommand{\bfg}{\mbox{\bf g} }
+\newcommand{\bfh}{\mbox{\bf h} }
+\newcommand{\bfi}{\mbox{\bf i} }
+\newcommand{\bfj}{\mbox{\bf j} }
+\newcommand{\bfk}{\mbox{\bf k} }
+\newcommand{\bfl}{\mbox{\bf l} }
+\newcommand{\bfm}{\mbox{\bf m} }
+\newcommand{\bfn}{\mbox{\bf n} }
+\newcommand{\bfo}{\mbox{\bf o} }
+\newcommand{\bfp}{\mbox{\bf p} }
+\newcommand{\bfq}{\mbox{\bf q} }
+\newcommand{\bfr}{\mbox{\bf r} }
+\newcommand{\bfs}{\mbox{\bf s} }
+\newcommand{\bft}{\mbox{\bf t} }
+\newcommand{\bfu}{\mbox{\bf u} }
+\newcommand{\bfv}{\mbox{\bf v} }
+\newcommand{\bfw}{\mbox{\bf w} }
+\newcommand{\bfx}{\mbox{\bf x} }
+\newcommand{\bfy}{\mbox{\bf y} }
+\newcommand{\bfz}{\mbox{\bf z} }
+\newcommand{\bfA}{\mbox{\bf A} }
+\newcommand{\bfB}{\mbox{\bf B} }
+\newcommand{\bfC}{\mbox{\bf C} }
+\newcommand{\bfD}{\mbox{\bf D} }
+\newcommand{\bfE}{\mbox{\bf E} }
+\newcommand{\bfF}{\mbox{\bf F} }
+\newcommand{\bfG}{\mbox{\bf G} }
+\newcommand{\bfH}{\mbox{\bf H} }
+\newcommand{\bfI}{\mbox{\bf I} }
+\newcommand{\bfJ}{\mbox{\bf J} }
+\newcommand{\bfK}{\mbox{\bf K} }
+\newcommand{\bfL}{\mbox{\bf L} }
+\newcommand{\bfM}{\mbox{\bf M} }
+\newcommand{\bfN}{\mbox{\bf N} }
+\newcommand{\bfO}{\mbox{\bf O} }
+\newcommand{\bfP}{\mbox{\bf P} }
+\newcommand{\bfQ}{\mbox{\bf Q} }
+\newcommand{\bfR}{\mbox{\bf R} }
+\newcommand{\bfS}{\mbox{\bf S} }
+\newcommand{\bfT}{\mbox{\bf T} }
+\newcommand{\bfU}{\mbox{\bf U} }
+\newcommand{\bfV}{\mbox{\bf V} }
+\newcommand{\bfW}{\mbox{\bf W} }
+\newcommand{\bfX}{\mbox{\bf X} }
+\newcommand{\bfY}{\mbox{\bf Y} }
+\newcommand{\bfZ}{\mbox{\bf Z} }
+
+\newcommand{\iid}{\stackrel{iid}{\sim}}
+\newcommand{\indep}{\overset{ind}{\sim}}
+\newcommand{\calA}{{\cal A}}
+\newcommand{\calB}{{\cal B}}
+\newcommand{\calC}{{\cal C}}
+\newcommand{\calD}{{\cal D}}
+\newcommand{\calF}{{\cal F}}
+\newcommand{\calG}{{\cal G}}
+\newcommand{\calH}{{\cal H}}
+\newcommand{\calI}{{\cal I}}
+\newcommand{\calJ}{{\cal J}}
+\newcommand{\calK}{{\cal K}}
+\newcommand{\calL}{{\cal L}}
+\newcommand{\calM}{{\cal M}}
+\newcommand{\calN}{{\cal N}}
+\newcommand{\calO}{{\cal O}}
+\newcommand{\calP}{{\cal P}}
+\newcommand{\calQ}{{\cal Q}}
+\newcommand{\calR}{{\cal R}}
+\newcommand{\calS}{{\cal S}}
+\newcommand{\calT}{{\cal T}}
+\newcommand{\calX}{{\cal X}}
+\newcommand{\argmax}{{\mathop{\rm arg\, max}}}
+\newcommand{\argmin}{{\mathop{\rm arg\, min}}}
+\newcommand{\Frechet}{ \mbox{Fr$\acute{\mbox{e}}$chet} }
+\newcommand{\Matern}{ \mbox{Mat$\acute{\mbox{e}}$rn} }
+
+\newcommand{\bfig}{\begin{figure}}
+\newcommand{\efig}{\end{figure}}
+\newcommand{\beqx}{\begin{equation*}}
+\newcommand{\eeqx}{\end{equation*}}
+\newcommand{\beq}{\begin{equation}}
+\newcommand{\eeq}{\end{equation}}
+\newcommand{\beqa}{\begin{eqnarray}}
+\newcommand{\eeqa}{\end{eqnarray}}
+\newcommand{\beqax}{\begin{eqnarray*}}
+\newcommand{\eeqax}{\end{eqnarray*}}
+\newcommand{\beqn}{\begin{dmath}}
+\newcommand{\eeqn}{\end{dmath}}
+\newcommand{\beqnx}{\begin{dmath*}}
+\newcommand{\eeqnx}{\end{dmath*}}
+
+\let\originalleft\left
+\let\originalright\right
+\renewcommand{\left}{\mathopen{}\mathclose\bgroup\originalleft}
+\renewcommand{\right}{\aftergroup\egroup\originalright}
+
+\renewcommand{\colon}{\nobreak\mskip1mu\mathpunct{}\nonscript\mkern-\thinmuskip{:}\mskip6muplus1mu\relax}
+
+\providecommand{\itbf}[1]{\textit{\textbf{#1}}} 
+\providecommand{\abs}[1]{\left\lvert#1\right\rvert} 
+\providecommand{\norm}[1]{\left\lVert#1\right\rVert}
+
+\providecommand{\paren}[1]{\left(#1\right)} 
+\providecommand{\Paren}[1]{\Big(#1\Big)}
+\providecommand{\PAREN}[1]{\bigg(#1\bigg)} 
+\providecommand{\bracket}[1]{\left[ #1 \right]} 
+\providecommand{\Bracket}[1]{\Big[ #1 \Big]} 
+\providecommand{\BRACKET}[1]{\bigg[ #1 \bigg]} 
+\providecommand{\curlybrace}[1]{\left\{ #1 \right\}} 
+\providecommand{\Curlybrace}[1]{\Big\{ #1 \Big\}} 
+\providecommand{\CURLYBRACE}[1]{\bigg\{ #1 \bigg\}} 
+
+\newcommand{\cond}{\,\left\vert\vphantom{}\right.}
+\newcommand{\Cond}{\,\Big\vert\vphantom{}\Big.}
+\newcommand{\COND}{\,\Bigg\vert\vphantom{}\Bigg.}
+
+
+\newcommand{\Bern}{\mbox{{\sf Bern}}}
+\newcommand{\Bernoulli}{\mbox{{\sf Bernoulli}}}
+\newcommand{\Beta}{\mbox{{\sf Beta}}}
+\newcommand{\Binom}{\mbox{{\sf Binom}}}
+\newcommand{\Binomial}{\mbox{{\sf Binomial}}}
+\newcommand{\Gam}{\mbox{{\sf Gamma}}}
+\newcommand{\InverseGam}{\mbox{{\sf InverseGamma}}}
+\newcommand{\GP}{\mbox{{\sf GP}}}
+\newcommand{\GPD}{\mbox{{\sf GPD}}}
+\newcommand{\MVN}{\mbox{{\sf MVN}}}
+\newcommand{\Geom}{\mbox{{\sf Geom}}}
+\newcommand{\NB}{\mbox{{\sf NB}}}
+\newcommand{\NegBin}{\mbox{{\sf NegBin}}}
+\newcommand{\NegativeBinomial}{\mbox{{\sf NegativeBinomial}}}
+\newcommand{\Normal}{\mbox{{\sf Normal}}}
+\newcommand{\Pois}{\mbox{{\sf Pois}}}
+\newcommand{\Poisson}{\mbox{{\sf Poisson}}}
+\newcommand{\Unif}{\mbox{{\sf Unif}}}
+\newcommand{\Uniform}{\mbox{{\sf Uniform}}}
+
+
+\newcommand{\Prob}{{\sf Prob}}
+\newcommand{\median}{{\mathop{\rm median}}}
+\newcommand{\E}{\mathsf{E}}
+\newcommand{\V}{\mathsf{V}}
+\newcommand{\VAR}{\mathsf{VAR}}
+\newcommand{\COV}{\mathsf{COV}}
+
+\newcommand{\Ind}{\mathds{1}}
+\newcommand{\zerovect}{\mbox{\bf 0}}
+\newcommand{\onesvect}{\mbox{\bf 1}}
+\providecommand{\real}[1]{\mathbb{#1}}
+\newcommand{\Real}{\mathbb{R}}
+\newcommand{\ppd}{\mathcal{P}}
+\DeclareMathOperator{\logit}{logit}
+
+%colors
+\newcommand{\red}{\textcolor{red}}
+\newcommand{\orange}{\textcolor{orange}}
+\newcommand{\yellow}{\textcolor{yellow}}
+\newcommand{\lime}{\textcolor{lime}}
+\newcommand{\green}{\textcolor{green}}
+\newcommand{\blue}{\textcolor{blue}}
+\newcommand{\cyan}{\textcolor{cyan}}
+\newcommand{\teal}{\textcolor{teal}}
+\newcommand{\magenta}{\textcolor{magenta}}
+\newcommand{\pink}{\textcolor{pink}}
+\newcommand{\gray}{\textcolor{gray}}
+\newcommand{\lightgray}{\textcolor{lightgray}}
+\newcommand{\darkgray}{\textcolor{darkgray}}
+\newcommand{\black}{\textcolor{black}}
+\newcommand{\white}{\textcolor{white}}
+
+\newcommand{\loyolamaroon}{\textcolor{loyolamaroon}}
+\newcommand{\loyolagold}{\textcolor{loyolagold}}
+
+\usepackage[english]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage{amsmath,amsthm, amssymb, latexsym}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{array,booktabs,tabularx,multirow}
+\newcolumntype{Z}{>{\centering\arraybackslash}X} % centered tabularx columns
+\newcommand{\pphantom}{\textcolor{ta3aluminium}} % phantom introduces a vertical space in p formatted table columns??!!
+\newcommand {\expect}{\mbox{E}}
+\newcommand {\var}{\mbox{var}}
+\newcommand {\cov}{\mbox{cov}}
+\listfiles
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\graphicspath{{figures/}}
+%\usepackage[orientation=landscape,size=custom,width=119,height=89,scale=1.25,debug]{beamerposter}
+%\usepackage[orientation=portrait,size=a0,scale=1.25,debug]{beamerposter}
+\usepackage[orientation=portrait,size=custom,height=91.44,width=106.68,scale=1.25,debug]{beamerposter}
+
+
+\newlength{\columnheight}\setlength{\columnheight}{75cm} %****You have to get the height empirically***
+
+
+%=============================================================%
+%======================   HEADER   ===========================%
+%=============================================================%
+
+\title{\veryHuge Bayesian Meta-Analysis of Single Arm Clinical Trials}
+\author{\Large Leandra Knapp, \and Dr.~Earvin Balderama}
+\institute[LUC]{\large Department of Mathematics \& Statistics, Loyola University Chicago, Chicago, IL, USA }
+\date[April 21, 2018]{April 21, 2018}
+%=============================================================%
+%=======================   HEADER   ==========================%
+%=============================================================%
+
+
+
+
+\begin{document}
+{
+
+%\usebackgroundtemplate{\includegraphics[width=\paperwidth]{nantucket127-points-terrain.png}} %optional background image
+\begin{frame}
+\vskip1ex
+\begin{columns}
+%=============================================================%
+\begin{column}{.33\textwidth}
+\begin{beamercolorbox}[center,wd=\textwidth]{postercolumn}
+\begin{minipage}[T]{.97\textwidth}  % tweaks the width, makes a new \textwidth
+\parbox[t][\columnheight]{\textwidth}{ % must be some better way to set the the height, width and textwidth simultaneously
+% Since all columns are the same length, it is all nice and tidy.  You have to get the height empirically
+%=============================================================%
+%=============================================================%
+%=============================================================%
+%===================   FIRST COLUMN    =======================%
+%=============================================================%
+%=============================================================%
+%=============================================================%
+
+%=============================================================%
+\begin{block}{Motivation}
+%=============================================================%
+
+\begin{itemize}
+  \item Arthritic ankles often undergo surgery to fuse or replace the ankle, in order to relieve pain
+  \item How is post-surgical complication or failure rate related to surgery type?
+  \begin{itemize}
+    \item Total Ankle Arthroplasty
+    \item Ankle Arthrodesis - Open
+    \item Ankle Arthrodesis - Arthroscopic
+  \end{itemize}
+\end{itemize}
+%\begin{itemize}
+%		\item \textbf{Need:} Improved \red{meta-analysis} methods for \red{small proportion} data from \red{single-arm} clinical studies with \red{missing data}.
+%		\begin{center}
+%			\vspace{-0.5cm}
+%		\end{center}
+%        \item \textbf{Goal:} Develop strategies for using Bayesian \red{hierarchical modeling} to determine accurate \red{effect sizes} for proportion outcome measures when no control group exists and/or covariates differ between studies.
+%	\end{itemize}
+	%\begin{center}
+%	\vspace{-0.25cm}
+	%\end{center}
+	
+\end{block}
+\vfill
+
+%=============================================================%
+\begin{block}{The Data}
+%=============================================================%
+	
+\begin{itemize}
+	\item N=38 studies, each with $n_i$ observations
+	%\vspace{-0.25cm}
+	\item Continuous covariates (age)
+	\item Indicator covariates (treatment type)
+	\item Count covariates/responses (diagnosis type, complication types, etc.)
+	\item $y_i=$ Response: per-study failure or complication rate
+\end{itemize}
+\vspace{-0.25cm}
+
+\end{block}
+\vfill
+
+%=============================================================%
+\begin{block}{Definitions}
+%=============================================================%
+
+\begin{itemize}
+	\item \textbf{Meta-analysis:} The \red{combination} of the results of multiple similar independent studies to determine an "actual" \red{overall result}
+\vspace{-0.25cm}
+	\item \textbf{Effect Size:} The \red{magnitude} of the effect that a treatment has on the results of an experiment, compared to a different treatment or control (often standard difference of means, odds ratio, or relative risk ratio)
+\vspace{-0.25cm}
+  \item \textbf{Outcome Measure:} The \red{quantitative result} of interest
+\vspace{-0.25cm}
+  \item \textbf{Single-arm Study:} A study designed \red{without a control group}, whether for practical, moral, or other reasons
+\end{itemize}
+\vspace{-0.25cm}
+
+\end{block}
+\vfill
+
+
+%=============================================================%
+\begin{block}{Model 1: Beta-Binomial}
+%=============================================================%
+
+
+{\bf Likelihood of observing $y_{i}$ ankle failures:}
+\beqx
+f(y_{i} \cond p_{i}, n_{i}) = 
+\begin{cases}
+{n_{i} \choose y_{i}} {p_{i}}^{y_{i}}(1-p_{i})^{n_{i}-y_{i}}, &   y_{i}=1,2,...,n_{i}
+\end{cases}
+\eeqx
+
+{\bf Prior distribution for $p_{i}$:}
+\beqx
+f(p_{i}) = 
+\begin{cases}
+\frac{\Gamma(\alpha+\beta)}{\Gamma(\alpha)\Gamma(\beta)}p_{i}^{\alpha-1}(1-p_{i})^{\beta-1}, & 0<p_{i}<1
+\end{cases}
+\eeqx
+
+{\bf where} 
+$$f(\alpha)=f(\beta)=\frac{1}{\Gamma(0.01) \times 0.01^{0.01}} (.)^{0.01-1} e^{-(.)/0.01}$$
+
+\vspace{2.25cm}
+
+\centering
+\includegraphics[scale=1]{allps.png}\ \
+
+(1-23: TAA; 24-32: AAO; 33:38: AAA)
+
+\vspace{2.25cm}
+
+\end{block}
+%\vfill
+}
+\end{minipage}
+\end{beamercolorbox}
+\end{column}
+%=============================================================%
+\begin{column}{.33\textwidth}
+\begin{beamercolorbox}[center,wd=\textwidth]{postercolumn}
+\begin{minipage}[T]{.97\textwidth} % tweaks the width, makes a new \textwidth
+\parbox[t][\columnheight]{\textwidth}{ % must be some better way to set the the height, width and textwidth simultaneously
+% Since all columns are the same length, it is all nice and tidy.  You have to get the height empirically
+%=============================================================%
+%=============================================================%
+%=============================================================%
+%===================   SECOND COLUMN   =======================%
+%=============================================================%
+%=============================================================%
+%=============================================================%
+
+
+
+%=============================================================%
+\begin{block}{Technique: Metropolis-Hastings MCMC}
+%=============================================================%
+%Left: Median estimate of posterior probability
+
+%Right: Uncertainty interval of estimate.
+
+\begin{minipage}[T]{.97\textwidth}
+	
+	\vspace{5mm}
+	\begin{enumerate}
+		\item \textbf{Set initial parameter value} (eg $\theta^{(0)}$)
+		\item \textbf{Acceptance/rejection sequence;} for each iteration \textit{i},
+		\begin{enumerate}[a)]
+		  \item Draw \red{candidate} $\theta^*$ from possible \red{posterior distribution}, $J(\theta\cond\theta^{(t-1)})$
+		  \item Compute \red{Metropolis ratio}, $R=\frac{f(\theta^*\cond\bfy)}{f(\theta^{(t-1)}\cond\bfy)}\times \frac{J(\theta^{(t-1)}\cond\theta^*)}{J(\theta^*\cond\theta^{(t-1)})}$
+		  \item Set 
+		\end{enumerate}
+	\end{enumerate}
+	\beqx
+	\theta^{(t)}=
+	\begin{cases}
+	\theta^* & \text{with \red{acceptance probability} \it{min(R,1)}} \\
+	\theta^{(t-1)}, & \text{otherwise}
+	\end{cases}
+	\eeqx
+	
+\end{minipage}
+	
+\end{block}
+\vfill
+
+%=============================================================%
+\begin{block}{Model 2: Normal-Binomial}
+%=============================================================%
+	
+\begin{minipage}[T]{.97\textwidth}	
+
+\vspace{5mm}
+	
+{\bf Likelihood of observing $y_{i}$ ankle failures:}
+\beqx
+f(y_{i} \cond p_{i}, n_{i}) = 
+\begin{cases}
+{n_{i} \choose y_{i}} {p_{i}}^{y_{i}}(1-p_{i})^{n_{i}-y_{i}}, &   y_{i}=1,2,...,n_{i}
+\end{cases}
+\eeqx
+
+{\bf Prior distribution for $p_{i}$:}
+\beqx
+f(\theta) = 
+\begin{cases}
+\frac{1}{\sigma\sqrt{2\pi}}e^{-(\frac{(\theta_i-\theta_{0})^{2}}{2\sigma^2})}, & -\infty<\theta<\infty
+\end{cases}
+\eeqx
+
+{\bf where} $\sigma^{2}=100^2$, and 
+$$\theta_i=logit(p_i)=\left(\frac{p_i}{1-p_i}\right)$$
+
+\vspace{.25cm}
+
+\centering
+\includegraphics[scale=1]{trace.png}\ \
+
+\vspace{.15cm}
+
+\centering
+\includegraphics[scale=1.35]{posteriors.png}\ \
+
+\vspace{-.25cm}
+
+$$\boldmath{\theta_0=-2.502,\sigma_{\theta}=0.053\rightarrow p_0=0.075, \sigma_{p}=0.003}$$
+
+\vspace{-.25cm}
+
+\end{minipage}
+
+\end{block}
+\vfill
+
+%=============================================================%
+\begin{block}{Model Advantages:}
+%=============================================================%
+\begin{itemize}
+  \item {\bf Beta-Binomial: }\red{No transformation} necesssary=no division by zero, no $\log(0)$, \& no $\log(\infty)$
+  \item {\bf Normal-Binomial: }Simpler for regressing on \red{additional covariates}, \& adding \red{random effects} (see next panel)
+\end{itemize}
+
+%\end{minipage}
+%\begin{columns}
+%	\column{0.5\textwidth}
+%	\flushright
+
+%	\column{0.35\textwidth}\flushleft
+
+%	\vspace{-1cm}
+%	\footnotesize
+%	\centering
+
+%\end{columns}
+
+%\begin{minipage}[t][0.1mm]{.97\textwidth}
+	
+%\end{minipage}
+
+\vspace{3mm}
+
+\end{block}
+
+}
+
+
+\end{minipage}
+\end{beamercolorbox}
+\end{column}
+%=============================================================%
+\begin{column}{.33\textwidth}
+\begin{beamercolorbox}[center,wd=\textwidth]{postercolumn}
+\begin{minipage}[T]{.97\textwidth}  % tweaks the width, makes a new \textwidth
+\parbox[t][\columnheight]{\textwidth}{ % must be some better way to set the the height, width and textwidth simultaneously
+% Since all columns are the same length, it is all nice and tidy.  You have to get the height empirically
+%=============================================================%
+%=============================================================%
+%=============================================================%
+%===================   THIRD COLUMN    =======================%
+%=============================================================%
+%=============================================================%
+%=============================================================%
+
+
+
+%=============================================================%
+\begin{block}{Model 3: N-B with Regression \& Meta-Analysis}
+%=============================================================%
+	
+\begin{itemize}
+	\item Add \red{covariates} to the model
+	\begin{itemize}
+	  \item Indicator variables for surgery type
+	 \end{itemize}
+	\item Include "weights" for meta-analysis (inverse variance)
+	\item Include \red{random effects} for $\theta_i=logit(p_i)$
+	\item Same Likelihood for $y_i$ as previous model
+\end{itemize}
+	
+{\bf Regression:}
+$$logit(p_i)=\beta_0+\beta_1x_1+\beta_2x_2+RE$$
+
+\begin{itemize}
+  \item $x_1,x_2$ are indicators for AAO and AAA, respectively
+  \item $\beta_0,\beta_1,\&\beta_2$ are coefficients ($\sim N(0,0.1)$)
+  \item Prior for $\theta=logit(p)\sim N(\bfX \times \bbeta,\frac{1}{y_i}+\frac{1}{n_i-y_i})$
+  \item $RE$ are \red{random effects} $\sim N(0,\tau^2)$, where $$f(\tau)=\frac{1}{5}e^{-\frac{\tau}{5}}$$
+\end{itemize}
+	
+%\vspace{2cm}	
+	
+\centering
+\includegraphics[scale=2]{traces.png}\ \	
+
+\vspace{1cm}
+
+\centering
+\includegraphics[scale=2]{table.png}\ \
+
+\vspace{1cm}
+	
+\end{block}
+\vfill
+
+
+%=============================================================%
+\begin{block}{Future Directions}
+%=============================================================%
+\begin{itemize}
+	\item Incorporate additional covariates of different types
+	\item Improve techniques to accommodate missing data
+	\item Expand to make descriptive modeling techniques into \red{predictive} techniques as well
+\end{itemize}
+
+
+
+\end{block}
+\vfill
+%=============================================================%
+\begin{block}{Acknowledgements}
+%=============================================================%
+
+
+\begin{itemize}
+	\item Software used: \includegraphics[scale=.55]{miscPP.png}\ \ (\url{www.r-project.org}) 
+	\item Data acquired from \red{Dr Cort Daniel Lawton, MD} (Northwestern University)
+	\item Special thanks to Timothy O'Brien and the Loyola University Chicago Department of Mathematics and Statistics.
+\end{itemize}
+
+
+
+\end{block}
+
+
+
+
+
+}
+\end{minipage}
+\end{beamercolorbox}
+\end{column}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+
+
+
+
+
+
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++%
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++%
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++%
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++%
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++%
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++%
+% end the columns
+  \end{columns}
+  \vskip1ex
+  %\tiny\hfill\textcolor{ta2gray}{Created with \LaTeX \texttt{beamerposter}  \url{http://www-i6.informatik.rwth-aachen.de/~dreuw/latexbeamerposter.php}}
+
+  %\tiny\hfill{Created with \LaTeX \texttt{beamerposter}
+  %\url{http://www4.ncsu.edu/$\sim$dmvock/} \hskip1em}
+\end{frame}
+}
+\end{document}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-PDF-mode: t
+%%% End:
