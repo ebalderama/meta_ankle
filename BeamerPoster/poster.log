@@ -1,0 +1,2537 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.18)  14 APR 2018 22:09
+entering extended mode
+**./poster.tex
+(poster.tex
+LaTeX2e <2017-04-15>
+Babel <3.15> and hyphenation patterns for 75 language(s) loaded.
+
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamer.cl
+s"
+Document Class: beamer 2018/02/20 v3.50 A class for typesetting presentations
+
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerbas
+emodes.sty"
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\etoolbox\etoolbo
+x.sty"
+Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count79
+)
+\beamer@tempbox=\box26
+\beamer@tempcount=\count80
+\c@beamerpauses=\count81
+
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerbas
+edecode.sty"
+\beamer@slideinframe=\count82
+\beamer@minimum=\count83
+)
+\beamer@commentbox=\box27
+\beamer@modecount=\count84
+)
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifpdf
+.sty"
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+\headdp=\dimen102
+\footheight=\dimen103
+\sidebarheight=\dimen104
+\beamer@tempdim=\dimen105
+\beamer@finalheight=\dimen106
+\beamer@animht=\dimen107
+\beamer@animdp=\dimen108
+\beamer@animwd=\dimen109
+\beamer@leftmargin=\dimen110
+\beamer@rightmargin=\dimen111
+\beamer@leftsidebar=\dimen112
+\beamer@rightsidebar=\dimen113
+\beamer@boxsize=\dimen114
+\beamer@vboxoffset=\dimen115
+\beamer@descdefault=\dimen116
+\beamer@descriptionwidth=\dimen117
+\beamer@lastskip=\skip41
+\beamer@areabox=\box28
+\beamer@animcurrent=\box29
+\beamer@animshowbox=\box30
+\beamer@sectionbox=\box31
+\beamer@logobox=\box32
+\beamer@linebox=\box33
+\beamer@sectioncount=\count85
+\beamer@subsubsectionmax=\count86
+\beamer@subsectionmax=\count87
+\beamer@sectionmax=\count88
+\beamer@totalheads=\count89
+\beamer@headcounter=\count90
+\beamer@partstartpage=\count91
+\beamer@sectionstartpage=\count92
+\beamer@subsectionstartpage=\count93
+\beamer@animationtempa=\count94
+\beamer@animationtempb=\count95
+\beamer@xpos=\count96
+\beamer@ypos=\count97
+\beamer@ypos@offset=\count98
+\beamer@showpartnumber=\count99
+\beamer@currentsubsection=\count100
+\beamer@coveringdepth=\count101
+\beamer@sectionadjust=\count102
+\beamer@tocsectionnumber=\count103
+
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerbas
+eoptions.sty"
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval.
+sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+))
+\beamer@paperwidth=\skip42
+\beamer@paperheight=\skip43
+
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geometr
+y.sty"
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifvte
+x.sty"
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\generic\ifxetex\ifxete
+x.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count104
+\Gm@cntv=\count105
+\c@Gm@tempcnt=\count106
+\Gm@bindingoffset=\dimen118
+\Gm@wd@mp=\dimen119
+\Gm@odd@mp=\dimen120
+\Gm@even@mp=\dimen121
+\Gm@layoutwidth=\dimen122
+\Gm@layoutheight=\dimen123
+\Gm@layouthoffset=\dimen124
+\Gm@layoutvoffset=\dimen125
+\Gm@dimlist=\toks15
+
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geometr
+y.cfg"))
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\size11.clo"
+File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\basiclayer\p
+gfcore.sty"
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphic
+x.sty"
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphic
+s.sty"
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.st
+y"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\gra
+phics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-def\pdf
+tex.def"
+File: pdftex.def 2017/06/24 v1.0g Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen126
+\Gin@req@width=\dimen127
+)
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\systemlayer\
+pgfsys.sty"
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\utilities\pg
+frcs.sty"
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\
+pgfutil-common.tex"
+\pgfutil@everybye=\toks16
+\pgfutil@tempdima=\dimen128
+\pgfutil@tempdimb=\dimen129
+
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\
+pgfutil-common-lists.tex"))
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\
+pgfutil-latex.def"
+\pgfutil@abb=\box34
+
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ms\everyshi.sty"
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\
+pgfrcs.code.tex"
+Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
+))
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlaye
+r\pgfsys.code.tex"
+Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
+
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\
+pgfkeys.code.tex"
+\pgfkeys@pathtoks=\toks17
+\pgfkeys@temptoks=\toks18
+
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities\
+pgfkeysfiltered.code.tex"
+\pgfkeys@tmptoks=\toks19
+))
+\pgf@x=\dimen130
+\pgf@y=\dimen131
+\pgf@xa=\dimen132
+\pgf@ya=\dimen133
+\pgf@xb=\dimen134
+\pgf@yb=\dimen135
+\pgf@xc=\dimen136
+\pgf@yc=\dimen137
+\w@pgf@writea=\write3
+\r@pgf@reada=\read1
+\c@pgf@counta=\count107
+\c@pgf@countb=\count108
+\c@pgf@countc=\count109
+\c@pgf@countd=\count110
+\t@pgf@toka=\toks20
+\t@pgf@tokb=\toks21
+\t@pgf@tokc=\toks22
+
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlaye
+r\pgf.cfg"
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlaye
+r\pgfsys-pdftex.def"
+File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
+
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlaye
+r\pgfsys-common-pdf.def"
+File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
+)))
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlaye
+r\pgfsyssoftpath.code.tex"
+File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
+\pgfsyssoftpath@smallbuffer@items=\count111
+\pgfsyssoftpath@bigbuffer@items=\count112
+)
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlaye
+r\pgfsysprotocol.code.tex"
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+))
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xcolor\xcolor.st
+y"
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\col
+or.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer
+\pgfcore.code.tex"
+Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
+
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfma
+th.code.tex"
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfma
+thcalc.code.tex"
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfma
+thutil.code.tex")
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfma
+thparser.code.tex"
+\pgfmath@dimen=\dimen138
+\pgfmath@count=\count113
+\pgfmath@box=\box35
+\pgfmath@toks=\toks23
+\pgfmath@stack@operand=\toks24
+\pgfmath@stack@operation=\toks25
+)
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfma
+thfunctions.code.tex"
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfma
+thfunctions.basic.code.tex")
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfma
+thfunctions.trigonometric.code.tex")
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfma
+thfunctions.random.code.tex")
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfma
+thfunctions.comparison.code.tex")
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfma
+thfunctions.base.code.tex")
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfma
+thfunctions.round.code.tex")
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfma
+thfunctions.misc.code.tex")
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfma
+thfunctions.integerarithmetics.code.tex")))
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfma
+thfloat.code.tex"
+\c@pgfmathroundto@lastzeros=\count114
+))
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer
+\pgfcorepoints.code.tex"
+File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
+\pgf@picminx=\dimen139
+\pgf@picmaxx=\dimen140
+\pgf@picminy=\dimen141
+\pgf@picmaxy=\dimen142
+\pgf@pathminx=\dimen143
+\pgf@pathmaxx=\dimen144
+\pgf@pathminy=\dimen145
+\pgf@pathmaxy=\dimen146
+\pgf@xx=\dimen147
+\pgf@xy=\dimen148
+\pgf@yx=\dimen149
+\pgf@yy=\dimen150
+\pgf@zx=\dimen151
+\pgf@zy=\dimen152
+)
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer
+\pgfcorepathconstruct.code.tex"
+File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
+\pgf@path@lastx=\dimen153
+\pgf@path@lasty=\dimen154
+)
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer
+\pgfcorepathusage.code.tex"
+File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
+\pgf@shorten@end@additional=\dimen155
+\pgf@shorten@start@additional=\dimen156
+)
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer
+\pgfcorescopes.code.tex"
+File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
+\pgfpic=\box36
+\pgf@hbox=\box37
+\pgf@layerbox@main=\box38
+\pgf@picture@serial@count=\count115
+)
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer
+\pgfcoregraphicstate.code.tex"
+File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
+\pgflinewidth=\dimen157
+)
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer
+\pgfcoretransformations.code.tex"
+File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
+\pgf@pt@x=\dimen158
+\pgf@pt@y=\dimen159
+\pgf@pt@temp=\dimen160
+)
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer
+\pgfcorequick.code.tex"
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+)
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer
+\pgfcoreobjects.code.tex"
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer
+\pgfcorepathprocessing.code.tex"
+File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
+)
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer
+\pgfcorearrows.code.tex"
+File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
+\pgfarrowsep=\dimen161
+)
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer
+\pgfcoreshade.code.tex"
+File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
+\pgf@max=\dimen162
+\pgf@sys@shading@range@num=\count116
+)
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer
+\pgfcoreimage.code.tex"
+File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
+
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer
+\pgfcoreexternal.code.tex"
+File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
+\pgfexternal@startupbox=\box39
+))
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer
+\pgfcorelayers.code.tex"
+File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
+)
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer
+\pgfcoretransparency.code.tex"
+File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
+)
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclayer
+\pgfcorepatterns.code.tex"
+File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
+)))
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\utilities\xx
+color.sty"
+Package: xxcolor 2003/10/24 ver 0.1
+\XC@nummixins=\count117
+\XC@countmixins=\count118
+)
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\atbeg
+shi.sty"
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\infwa
+rerr.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ltxcm
+ds.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+))
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\hyperre
+f.sty"
+Package: hyperref 2017/03/14 v6.85a Hypertext links for LaTeX
+
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\hobsu
+b-hyperref.sty"
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\hobsu
+b-generic.sty"
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package hobsub Info: Skipping package `atbegshi' (already loaded).
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\auxhook
+.sty"
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\kvoptio
+ns.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen163
+\Hy@linkcounter=\count119
+\Hy@pagecounter=\count120
+
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\pd1enc.
+def"
+File: pd1enc.def 2017/03/14 v6.85a Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count121
+
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\00miktex\hyperre
+f.cfg"
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `final' set `true' on input line 4374.
+Package hyperref Info: Option `bookmarks' set `true' on input line 4374.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 4374.
+Package hyperref Info: Option `implicit' set `false' on input line 4374.
+Package hyperref Info: Hyper figures OFF on input line 4498.
+Package hyperref Info: Link nesting OFF on input line 4503.
+Package hyperref Info: Hyper index ON on input line 4506.
+Package hyperref Info: Plain pages OFF on input line 4513.
+Package hyperref Info: Backreferencing OFF on input line 4518.
+Package hyperref Info: Implicit mode OFF; no redefinition of LaTeX internals.
+Package hyperref Info: Bookmarks ON on input line 4751.
+\c@Hy@tempcnt=\count122
+
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\url\url.sty"
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5104.
+\XeTeXLinkMargin=\dimen164
+\Fld@menulength=\count123
+\Field@Width=\dimen165
+\Fld@charsize=\dimen166
+Package hyperref Info: Hyper figures OFF on input line 6358.
+Package hyperref Info: Link nesting OFF on input line 6363.
+Package hyperref Info: Hyper index ON on input line 6366.
+Package hyperref Info: backreferencing OFF on input line 6373.
+Package hyperref Info: Link coloring OFF on input line 6378.
+Package hyperref Info: Link coloring with OCG OFF on input line 6383.
+Package hyperref Info: PDF/A mode OFF on input line 6388.
+LaTeX Info: Redefining \ref on input line 6428.
+LaTeX Info: Redefining \pageref on input line 6432.
+\Hy@abspage=\count124
+
+
+Package hyperref Message: Stopped early.
+
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\hpdftex
+.def"
+File: hpdftex.def 2017/03/14 v6.85a Hyperref driver for pdfTeX
+\Fld@listcount=\count125
+\c@bookmark@seq@number=\count126
+
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\rerunfi
+lecheck.sty"
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+))
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerbas
+erequires.sty"
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerbas
+ecompatibility.sty")
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerbas
+efont.sty"
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amssymb
+.sty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amsfont
+s.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks26
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\sansmathaccent\s
+ansmathaccent.sty"
+Package: sansmathaccent 2013/03/28
+
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\filehook\filehoo
+k.sty"
+Package: filehook 2011/10/12 v0.5d Hooks for input files
+)))
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerbas
+etranslator.sty"
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\translator\trans
+lator.sty"
+Package: translator 2018/01/04 v1.12 Easy translation of strings in LaTeX
+))
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerbas
+emisc.sty")
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerbas
+etwoscreens.sty")
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerbas
+eoverlay.sty"
+\beamer@argscount=\count127
+\beamer@lastskipcover=\skip44
+\beamer@trivlistdepth=\count128
+)
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerbas
+etitle.sty")
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerbas
+esection.sty"
+\c@lecture=\count129
+\c@part=\count130
+\c@section=\count131
+\c@subsection=\count132
+\c@subsubsection=\count133
+)
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerbas
+eframe.sty"
+\beamer@framebox=\box40
+\beamer@frametitlebox=\box41
+\beamer@zoombox=\box42
+\beamer@zoomcount=\count134
+\beamer@zoomframecount=\count135
+\beamer@frametextheight=\dimen167
+\c@subsectionslide=\count136
+\beamer@frametopskip=\skip45
+\beamer@framebottomskip=\skip46
+\beamer@frametopskipautobreak=\skip47
+\beamer@framebottomskipautobreak=\skip48
+\beamer@envbody=\toks27
+\framewidth=\dimen168
+\c@framenumber=\count137
+)
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerbas
+everbatim.sty"
+\beamer@verbatimfileout=\write4
+)
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerbas
+eframesize.sty"
+\beamer@splitbox=\box43
+\beamer@autobreakcount=\count138
+\beamer@autobreaklastheight=\dimen169
+\beamer@frametitletoks=\toks28
+\beamer@framesubtitletoks=\toks29
+)
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerbas
+eframecomponents.sty"
+\beamer@footins=\box44
+)
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerbas
+ecolor.sty"
+\beamer@bg@ht=\dimen170
+\beamer@bg@wd=\dimen171
+\beamer@bg@dp=\dimen172
+)
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerbas
+enotes.sty"
+\beamer@frameboxcopy=\box45
+)
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerbas
+etoc.sty")
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerbas
+etemplates.sty"
+\beamer@sbttoks=\toks30
+
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerbas
+eauxtemplates.sty"
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerbas
+eboxes.sty"
+\bmb@box=\box46
+\bmb@colorbox=\box47
+\bmb@boxshadow=\box48
+\bmb@boxshadowball=\box49
+\bmb@boxshadowballlarge=\box50
+\bmb@temp=\dimen173
+\bmb@dima=\dimen174
+\bmb@dimb=\dimen175
+\bmb@prevheight=\dimen176
+)
+\beamer@blockheadheight=\dimen177
+))
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerbas
+elocalstructure.sty"
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\enumerate.
+sty"
+Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
+\@enLab=\toks31
+)
+\c@figure=\count139
+\c@table=\count140
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+)
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerbas
+enavigation.sty"
+\beamer@section@min@dim=\dimen178
+)
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerbas
+etheorems.sty"
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsmath.
+sty"
+Package: amsmath 2017/09/02 v2.17a AMS math features
+\@mathmargin=\skip51
+
+For additional information on amsmath, use the `?' option.
+
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amstext.
+sty"
+Package: amstext 2000/06/29 v2.01 AMS text
+
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsgen.s
+ty"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks32
+\ex@=\dimen179
+))
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsbsy.s
+ty"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen180
+)
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsopn.s
+ty"
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count141
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count142
+\leftroot@=\count143
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count144
+\DOTSCASE@=\count145
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box51
+\strutbox@=\box52
+\big@size=\dimen181
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count146
+\c@MaxMatrixCols=\count147
+\dotsspace@=\muskip11
+\c@parentequation=\count148
+\dspbrk@lvl=\count149
+\tag@help=\toks33
+\row@=\count150
+\column@=\count151
+\maxfields@=\count152
+\andhelp@=\toks34
+\eqnshift@=\dimen182
+\alignsep@=\dimen183
+\tagshift@=\dimen184
+\tagwidth@=\dimen185
+\totwidth@=\dimen186
+\lineht@=\dimen187
+\@envbody=\toks35
+\multlinegap=\skip52
+\multlinetaggap=\skip53
+\mathdisplay@stack=\toks36
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+)
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amscls\amsthm.st
+y"
+Package: amsthm 2015/03/04 v2.20.2
+\thm@style=\toks37
+\thm@bodyfont=\toks38
+\thm@headfont=\toks39
+\thm@notefont=\toks40
+\thm@headpunct=\toks41
+\thm@preskip=\skip54
+\thm@postskip=\skip55
+\thm@headsep=\skip56
+\dth@everypar=\toks42
+)
+\c@theorem=\count153
+)
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerbas
+ethemes.sty"))
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerthe
+medefault.sty"
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerfon
+tthemedefault.sty")
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamercol
+orthemedefault.sty")
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerinn
+erthemedefault.sty"
+\beamer@dima=\dimen188
+\beamer@dimb=\dimen189
+)
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\beamerout
+erthemedefault.sty")))
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\framed\framed.st
+y"
+Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
+\OuterFrameSep=\skip57
+\fb@frw=\dimen190
+\fb@frh=\dimen191
+\FrameRule=\dimen192
+\FrameSep=\dimen193
+)
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\alltt.sty"
+Package: alltt 1997/06/16 v2.0g defines alltt environment
+)
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\grffile
+.sty"
+Package: grffile 2016/05/16 v1.17 Extended file name support for graphics (HO)
+Package grffile Info: Option `multidot' is set to `true'.
+Package grffile Info: Option `extendedchars' is set to `false'.
+Package grffile Info: Option `space' is set to `true'.
+Package grffile Info: \Gin@ii of package `graphicx' fixed on input line 486.
+) (beamerthemeI6pd2.sty
+Package: beamerthemeI6pd2 
+ (styles/loyolacolors.sty) (styles/tangocolors.sty)) ("C:\Users\Leandra\AppData
+\Local\Programs\MiKTeX 2.9\tex\latex\ulem\ulem.sty"
+\UL@box=\box53
+\UL@hyphenbox=\box54
+\UL@skip=\skip58
+\UL@hook=\toks43
+\UL@height=\dimen194
+\UL@pe=\count154
+\UL@pixel=\dimen195
+\ULC@box=\box55
+Package: ulem 2012/05/18
+\ULdepth=\dimen196
+)
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\colortbl\colortb
+l.sty"
+Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
+
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\array.sty"
+Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
+\col@sep=\dimen197
+\extrarowheight=\dimen198
+\NC@list=\toks44
+\extratabsurround=\skip59
+\backup@length=\skip60
+)
+\everycr=\toks45
+\minrowclearance=\skip61
+)
+\sympureletters=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
+(Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
+ut line 77.
+ ("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\bm.sty"
+Package: bm 2017/01/16 v1.2c Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup7
+\symboldletters=\mathgroup8
+\symboldsymbols=\mathgroup9
+\symboldpureletters=\mathgroup10
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 141.
+LaTeX Info: Redefining \bm on input line 207.
+)
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\doublestroke\dsf
+ont.sty"
+Package: dsfont 1995/08/01 v0.1 Double stroke roman fonts
+)
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\breqn\breqn.sty"
+
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3kernel\expl3.s
+ty"
+Package: expl3 2018/03/05 L3 programming layer (loader) 
+
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3kernel\expl3-c
+ode.tex"
+Package: expl3 2018/03/05 L3 programming layer (code)
+\c_max_int=\count155
+\l_tmpa_int=\count156
+\l_tmpb_int=\count157
+\g_tmpa_int=\count158
+\g_tmpb_int=\count159
+\g__intarray_font_int=\count160
+\g__prg_map_int=\count161
+\c_log_iow=\count162
+\l_iow_line_count_int=\count163
+\l__iow_line_target_int=\count164
+\l__iow_one_indent_int=\count165
+\l__iow_indent_int=\count166
+\c_zero_dim=\dimen199
+\c_max_dim=\dimen256
+\l_tmpa_dim=\dimen257
+\l_tmpb_dim=\dimen258
+\g_tmpa_dim=\dimen259
+\g_tmpb_dim=\dimen260
+\c_zero_skip=\skip62
+\c_max_skip=\skip63
+\l_tmpa_skip=\skip64
+\l_tmpb_skip=\skip65
+\g_tmpa_skip=\skip66
+\g_tmpb_skip=\skip67
+\c_zero_muskip=\muskip12
+\c_max_muskip=\muskip13
+\l_tmpa_muskip=\muskip14
+\l_tmpb_muskip=\muskip15
+\g_tmpa_muskip=\muskip16
+\g_tmpb_muskip=\muskip17
+\l_keys_choice_int=\count167
+\c__fp_leading_shift_int=\count168
+\c__fp_middle_shift_int=\count169
+\c__fp_trailing_shift_int=\count170
+\c__fp_big_leading_shift_int=\count171
+\c__fp_big_middle_shift_int=\count172
+\c__fp_big_trailing_shift_int=\count173
+\c__fp_Bigg_leading_shift_int=\count174
+\c__fp_Bigg_middle_shift_int=\count175
+\c__fp_Bigg_trailing_shift_int=\count176
+\c__fp_rand_size_int=\count177
+\c__fp_rand_four_int=\count178
+\c__fp_rand_eight_int=\count179
+\l__sort_length_int=\count180
+\l__sort_min_int=\count181
+\l__sort_top_int=\count182
+\l__sort_max_int=\count183
+\l__sort_true_max_int=\count184
+\l__sort_block_int=\count185
+\l__sort_begin_int=\count186
+\l__sort_end_int=\count187
+\l__sort_A_int=\count188
+\l__sort_B_int=\count189
+\l__sort_C_int=\count190
+\l__tl_build_start_index_int=\count191
+\l__tl_build_index_int=\count192
+\l__tl_analysis_normal_int=\count193
+\l__tl_analysis_index_int=\count194
+\l__tl_analysis_nesting_int=\count195
+\l__tl_analysis_type_int=\count196
+\l__regex_internal_a_int=\count197
+\l__regex_internal_b_int=\count198
+\l__regex_internal_c_int=\count199
+\l__regex_balance_int=\count266
+\l__regex_group_level_int=\count267
+\l__regex_mode_int=\count268
+\c__regex_cs_in_class_mode_int=\count269
+\c__regex_cs_mode_int=\count270
+\l__regex_catcodes_int=\count271
+\l__regex_default_catcodes_int=\count272
+\c__regex_catcode_D_int=\count273
+\c__regex_catcode_S_int=\count274
+\c__regex_catcode_L_int=\count275
+\c__regex_catcode_O_int=\count276
+\c__regex_catcode_A_int=\count277
+\c__regex_all_catcodes_int=\count278
+\l__regex_show_lines_int=\count279
+\l__regex_min_state_int=\count280
+\l__regex_max_state_int=\count281
+\l__regex_left_state_int=\count282
+\l__regex_right_state_int=\count283
+\l__regex_capturing_group_int=\count284
+\l__regex_min_pos_int=\count285
+\l__regex_max_pos_int=\count286
+\l__regex_curr_pos_int=\count287
+\l__regex_start_pos_int=\count288
+\l__regex_success_pos_int=\count289
+\l__regex_curr_char_int=\count290
+\l__regex_curr_catcode_int=\count291
+\l__regex_last_char_int=\count292
+\l__regex_case_changed_char_int=\count293
+\l__regex_curr_state_int=\count294
+\l__regex_step_int=\count295
+\l__regex_min_active_int=\count296
+\l__regex_max_active_int=\count297
+\l__regex_replacement_csnames_int=\count298
+\l__regex_match_count_int=\count299
+\l__regex_min_submatch_int=\count300
+\l__regex_submatch_int=\count301
+\l__regex_zeroth_submatch_int=\count302
+\g__regex_trace_regex_int=\count303
+\c_empty_box=\box56
+\l_tmpa_box=\box57
+\l_tmpb_box=\box58
+\g_tmpa_box=\box59
+\g_tmpb_box=\box60
+\l__box_top_dim=\dimen261
+\l__box_bottom_dim=\dimen262
+\l__box_left_dim=\dimen263
+\l__box_right_dim=\dimen264
+\l__box_top_new_dim=\dimen265
+\l__box_bottom_new_dim=\dimen266
+\l__box_left_new_dim=\dimen267
+\l__box_right_new_dim=\dimen268
+\l__box_internal_box=\box61
+\l__coffin_internal_box=\box62
+\l__coffin_internal_dim=\dimen269
+\l__coffin_offset_x_dim=\dimen270
+\l__coffin_offset_y_dim=\dimen271
+\l__coffin_x_dim=\dimen272
+\l__coffin_y_dim=\dimen273
+\l__coffin_x_prime_dim=\dimen274
+\l__coffin_y_prime_dim=\dimen275
+\c_empty_coffin=\box63
+\l__coffin_aligned_coffin=\box64
+\l__coffin_aligned_internal_coffin=\box65
+\l_tmpa_coffin=\box66
+\l_tmpb_coffin=\box67
+\l__coffin_display_coffin=\box68
+\l__coffin_display_coord_coffin=\box69
+\l__coffin_display_pole_coffin=\box70
+\l__coffin_display_offset_dim=\dimen276
+\l__coffin_display_x_dim=\dimen277
+\l__coffin_display_y_dim=\dimen278
+\l__coffin_bounding_shift_dim=\dimen279
+\l__coffin_left_corner_dim=\dimen280
+\l__coffin_right_corner_dim=\dimen281
+\l__coffin_bottom_corner_dim=\dimen282
+\l__coffin_top_corner_dim=\dimen283
+\l__coffin_scaled_total_height_dim=\dimen284
+\l__coffin_scaled_width_dim=\dimen285
+)
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3kernel\l3pdfmo
+de.def"
+File: l3pdfmode.def 2017/03/18 v L3 Experimental driver: PDF mode
+\l__driver_color_stack_int=\count304
+))
+Package: breqn 2017/01/27 v0.98e Breaking equations
+
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\breqn\flexisym.s
+ty"
+Package: flexisym 2017/01/27 v0.98e Make math characters macros
+LaTeX Info: Redefining \textprime on input line 300.
+LaTeX Info: Redefining \not on input line 358.
+
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\breqn\cmbase.sym
+"
+File: cmbase.sym 2007/12/19 v0.92
+LaTeX Info: Redefining \hbar on input line 325.
+LaTeX Info: Redefining \surd on input line 327.
+LaTeX Info: Redefining \angle on input line 335.
+LaTeX Info: Redefining \neq on input line 336.
+LaTeX Info: Redefining \mapsto on input line 337.
+LaTeX Info: Redefining \cong on input line 338.
+LaTeX Info: Redefining \notin on input line 341.
+LaTeX Info: Redefining \rightleftharpoons on input line 342.
+LaTeX Info: Redefining \doteq on input line 343.
+LaTeX Info: Redefining \hookrightarrow on input line 344.
+LaTeX Info: Redefining \hookleftarrow on input line 345.
+LaTeX Info: Redefining \bowtie on input line 346.
+LaTeX Info: Redefining \models on input line 347.
+LaTeX Info: Redefining \Longrightarrow on input line 348.
+LaTeX Info: Redefining \longrightarrow on input line 349.
+LaTeX Info: Redefining \Longleftarrow on input line 350.
+LaTeX Info: Redefining \longleftarrow on input line 351.
+LaTeX Info: Redefining \longmapsto on input line 352.
+LaTeX Info: Redefining \longleftrightarrow on input line 353.
+LaTeX Info: Redefining \Longleftrightarrow on input line 354.
+LaTeX Info: Redefining \cdots on input line 358.
+LaTeX Info: Redefining \vdots on input line 361.
+LaTeX Info: Redefining \ddots on input line 366.
+)
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\breqn\mathstyle.
+sty"
+Package: mathstyle 2017/01/27 0.98e Tracking mathstyle implicitly
+LaTeX Info: Redefining \displaystyle on input line 93.
+LaTeX Info: Redefining \textstyle on input line 95.
+LaTeX Info: Redefining \scriptstyle on input line 97.
+LaTeX Info: Redefining \scriptscriptstyle on input line 99.
+LaTeX Info: Redefining \genfrac on input line 145.
+))
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\calc.sty"
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count305
+\calc@Bcount=\count306
+\calc@Adimen=\dimen286
+\calc@Bdimen=\dimen287
+\calc@Askip=\skip68
+\calc@Bskip=\skip69
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count307
+\calc@Cskip=\skip70
+)
+\inf@bad=\count308
+\maxint=\count309
+\listwidth=\dimen288
+\eqnumsep=\dimen289
+\eqmargin=\dimen290
+\eqlinespacing=\skip71
+\eqlineskip=\skip72
+\eqlineskiplimit=\dimen291
+\eqbinoffset=\muskip18
+\eqdelimoffset=\muskip19
+\eqindentstep=\dimen292
+\eqstyle=\toks46
+\eqbreakdepth=\count310
+\eqinterlinepenalty=\count311
+\intereqpenalty=\count312
+\intereqskip=\skip73
+\prerelpenalty=\count313
+\prebinoppenalty=\count314
+\Dmedmuskip=\muskip20
+\Dthickmuskip=\muskip21
+\eqleftskip=\skip74
+\eqrightskip=\skip75
+\eq@vspan=\skip76
+\eq@binoffset=\muskip22
+\EQ@box=\box71
+\EQ@copy=\box72
+\EQ@numbox=\box73
+\eq@wdNum=\dimen293
+\GRP@numbox=\box74
+\grp@wdNum=\dimen294
+\eq@lines=\count315
+\eq@curline=\count316
+\eq@badness=\count317
+\EQ@vims=\count318
+\eq@dp=\dimen295
+\eq@wdL=\dimen296
+\eq@wdT=\dimen297
+\eq@wdMin=\dimen298
+\grp@wdL=\dimen299
+\grp@wdR=\dimen300
+\grp@wdT=\dimen301
+\eq@wdRmax=\dimen302
+\eq@firstht=\dimen303
+\eq@wdCond=\dimen304
+\eq@indentstep=\dimen305
+\eq@linewidth=\dimen306
+\grp@linewidth=\dimen307
+\eq@hshift=\dimen308
+\eq@given@sidespace=\dimen309
+\mathindent=\dimen310
+\eq@final@linecount=\count319
+\eq@wdR=\dimen311
+\EQ@continue=\toks47
+\lr@level=\count320
+\GRP@queue=\toks48
+\GRP@box=\box75
+\GRP@wholebox=\box76
+\darraycolsep=\skip77
+\cur@row=\count321
+\cur@col=\count322
+\conditionsep=\skip78
+)
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstopd
+f.sty"
+Package: epstopdf 2016/05/15 v2.6 Conversion with epstopdf on the fly (HO)
+
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstopd
+f-base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\grfext.
+sty"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+))
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\multirow\bigstru
+t.sty"
+Package: bigstrut 2016/11/25 v2.2 Provide larger struts in tabulars
+\bigstrutjot=\dimen312
+)
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\tabularx.s
+ty"
+Package: tabularx 2016/02/03 v2.11 `tabularx' package (DPC)
+\TX@col@width=\dimen313
+\TX@old@table=\dimen314
+\TX@old@col=\dimen315
+\TX@target=\dimen316
+\TX@delta=\dimen317
+\TX@cols=\count323
+\TX@ftn=\toks49
+)
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\longtable.
+sty"
+Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip79
+\LTright=\skip80
+\LTpre=\skip81
+\LTpost=\skip82
+\LTchunksize=\count324
+\LTcapwidth=\dimen318
+\LT@head=\box77
+\LT@firsthead=\box78
+\LT@foot=\box79
+\LT@lastfoot=\box80
+\LT@cols=\count325
+\LT@rows=\count326
+\c@LT@tables=\count327
+\c@LT@chunks=\count328
+\LT@p@ftn=\toks50
+)
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\multirow\multiro
+w.sty"
+Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
+\multirow@colwidth=\skip83
+\multirow@cntb=\count329
+\multirow@dima=\skip84
+)
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\multicol.s
+ty"
+Package: multicol 2017/04/11 v1.8q multicolumn formatting (FMi)
+\c@tracingmulticols=\count330
+\mult@box=\box81
+\multicol@leftmargin=\dimen319
+\c@unbalance=\count331
+\c@collectmore=\count332
+\doublecol@number=\count333
+\multicoltolerance=\count334
+\multicolpretolerance=\count335
+\full@width=\dimen320
+\page@free=\dimen321
+\premulticols=\dimen322
+\postmulticols=\dimen323
+\multicolsep=\skip85
+\multicolbaselineskip=\skip86
+\partial@page=\box82
+\last@line=\box83
+\maxbalancingoverflow=\dimen324
+\mult@rightbox=\box84
+\mult@grightbox=\box85
+\mult@gfirstbox=\box86
+\mult@firstbox=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\@tempa=\box97
+\@tempa=\box98
+\@tempa=\box99
+\@tempa=\box100
+\@tempa=\box101
+\@tempa=\box102
+\@tempa=\box103
+\@tempa=\box104
+\c@columnbadness=\count336
+\c@finalcolumnbadness=\count337
+\last@try=\dimen325
+\multicolovershoot=\dimen326
+\multicolundershoot=\dimen327
+\mult@nat@firstbox=\box105
+\colbreak@box=\box106
+\mc@col@check@num=\count338
+)
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\afterpage.
+sty"
+Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
+\AP@output=\toks51
+\AP@partial=\box107
+\AP@footins=\box108
+)
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\verbatim.s
+ty"
+Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks52
+\verbatim@line=\toks53
+\verbatim@in@stream=\read2
+)
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fancyvrb\fancyvr
+b.sty"
+Package: fancyvrb 2008/02/07
+
+Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix 
+<2008/02/07> (tvz)
+\FV@CodeLineNo=\count339
+\FV@InFile=\read3
+\FV@TabBox=\box109
+\c@FancyVerbLine=\count340
+\FV@StepNumber=\count341
+\FV@OutFile=\write5
+)
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\listing
+s.sty"
+\lst@mode=\count342
+\lst@gtempboxa=\box110
+\lst@token=\toks54
+\lst@length=\count343
+\lst@currlwidth=\dimen328
+\lst@column=\count344
+\lst@pos=\count345
+\lst@lostspace=\dimen329
+\lst@width=\dimen330
+\lst@newlines=\count346
+\lst@lineno=\count347
+\lst@maxwidth=\dimen331
+
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstmisc
+.sty"
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+\c@lstnumber=\count348
+\lst@skipnumbers=\count349
+\lst@framebox=\box111
+)
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\listing
+s.cfg"
+File: listings.cfg 2015/06/04 1.6 listings configuration
+))
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
+
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.st
+y"
+Package: babel 2017/11/03 3.15 The Babel package
+
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\switch.d
+ef"
+File: switch.def 2017/11/03 3.15 Babel switching mechanism
+)
+*************************************
+* Local config file bblopts.cfg used
+*
+
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\arabi\bblopts.cf
+g"
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-english\en
+glish.ldf"
+Language: english 2017/06/06 v3.3r English support from the babel system
+
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.de
+f"
+File: babel.def 2017/11/03 3.15 Babel common definitions
+
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\switch.d
+ef"
+File: switch.def 2017/11/03 3.15 Babel switching mechanism
+)
+\babel@savecnt=\count350
+\U@D=\dimen332
+LaTeX Info: Redefining \textlatin on input line 1741.
+)
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+))
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\inputenc.st
+y"
+Package: inputenc 2015/03/17 v1.2c Input encoding file
+\inpenc@prehook=\toks55
+\inpenc@posthook=\toks56
+
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\latin1.def"
+File: latin1.def 2015/03/17 v1.2c Input encoding file
+))
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\latexsym.st
+y"
+Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
+\symlasy=\mathgroup11
+LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
+)
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\booktabs\booktab
+s.sty"
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen333
+\lightrulewidth=\dimen334
+\cmidrulewidth=\dimen335
+\belowrulesep=\dimen336
+\belowbottomsep=\dimen337
+\aboverulesep=\dimen338
+\abovetopsep=\dimen339
+\cmidrulesep=\dimen340
+\cmidrulekern=\dimen341
+\defaultaddspace=\dimen342
+\@cmidla=\count351
+\@cmidlb=\count352
+\@aboverulesep=\dimen343
+\@belowrulesep=\dimen344
+\@thisruleclass=\count353
+\@lastruleclass=\count354
+\@thisrulewidth=\dimen345
+) (beamerposter.sty
+Package: beamerposter 2010/11/18 v.1.12 latex-beamer poster extension
+
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.
+sty"
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xkeyval\xkeyva
+l.tex"
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xkeyval\xkvuti
+ls.tex"
+\XKV@toks=\toks57
+\XKV@tempa@toks=\toks58
+)
+\XKV@depth=\count355
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\type1cm\type1cm.
+sty"
+Package: type1cm 2002/09/05 v0.04 BlueSky/Y&Y Type1 CM font definitions (DPC, p
+atched RF)
+) ("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\fp.sty"
+Package: fp 1995/04/02
+`Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\defpattern.st
+y"
+Package: defpattern 1994/10/12
+\actioncount=\count356
+)
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\fp-basic.sty"
+Package: fp-basic 1996/05/13
+\FP@xs=\count357
+\FP@xia=\count358
+\FP@xib=\count359
+\FP@xfa=\count360
+\FP@xfb=\count361
+\FP@rega=\count362
+\FP@regb=\count363
+\FP@regs=\count364
+\FP@times=\count365
+)
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\fp-addons.sty
+"
+Package: fp-addons 1995/03/15
+) ("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\fp-snap.sty
+"
+Package: fp-snap 1995/04/05
+) ("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\fp-exp.sty"
+Package: fp-exp 1995/04/03
+)
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\fp-trigo.sty"
+Package: fp-trigo 1995/04/14
+) ("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\fp-pas.sty"
+Package: fp-pas 1994/08/29
+)
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\fp-random.sty
+"
+Package: fp-random 1995/02/23
+\FPseed=\count366
+) ("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\fp-eqn.sty"
+Package: fp-eqn 1995/04/03
+) ("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\fp-upn.sty"
+Package: fp-upn 1996/10/21
+) ("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fp\fp-eval.sty
+"
+Package: fp-eval 1995/04/03
+))
+Package beamerposter Info: checking size input, please wait. on input line 128.
+
+Package beamerposter Info: the input a0\ 1\ was correct, we proceed. on input l
+ine 128.
+Package beamerposter Info: finished size input check. on input line 128.
+Package beamerposter Info: myfontscale=1.0 on input line 128.
+Package beamerposter Info: checking orientation input, please wait. on input li
+ne 129.
+Package beamerposter Info: the input portrait\ 0\ was correct, we proceed. on i
+nput line 129.
+Package beamerposter Info: finished orientation check. on input line 129.
+Package beamerposter Info: checking size input, please wait. on input line 129.
+
+Package beamerposter Info: the input custom\ 6\ was correct, we proceed. on inp
+ut line 129.
+Package beamerposter Info: finished size input check. on input line 129.
+Package beamerposter Info: custom poster height=91.44 on input line 129.
+Package beamerposter Info: custom poster width=106.68 on input line 129.
+Package beamerposter Info: myfontscale=1.25 on input line 129.
+Package beamerposter Info: enabled debug mode on input line 129.
+ ( FP-UPN
+FP debug: upn: +++ computing upn-expression "myfontscale fontscale * 2 round"
+FP debug: upn: calculating "myfontscale"
+FP debug: upn: result      "1.25"
+FP debug: upn: calculating "fontscale"
+FP debug: upn: result      "1.0"
+FP debug: upn: calculating "1.0 mul 1.25"
+( FP-MUL )
+FP debug: upn: result      "1.250000000000000000"
+FP debug: upn: calculating "2"
+FP debug: upn: result      "2"
+FP debug: upn: calculating "round(1.250000000000000000:2)"
+( FP-ROUND )
+FP debug: upn: result      "1.25"
+FP debug: upn: +++ result of upn-expression is "(1.25)"
+)
+\tmp=\dimen346
+ ( FP-UPN
+FP debug: upn: +++ computing upn-expression "1 customwidth -"
+FP debug: upn: calculating "1"
+FP debug: upn: result      "1"
+FP debug: upn: calculating "customwidth"
+FP debug: upn: result      "106.68"
+FP debug: upn: calculating "106.68 sub 1"
+( FP-SUB )
+FP debug: upn: result      "105.680000000000000000"
+FP debug: upn: +++ result of upn-expression is "(105.680000000000000000)"
+) ( FP-UPN
+FP debug: upn: +++ computing upn-expression "1 customheight -"
+FP debug: upn: calculating "1"
+FP debug: upn: result      "1"
+FP debug: upn: calculating "customheight"
+FP debug: upn: result      "91.44"
+FP debug: upn: calculating "91.44 sub 1"
+( FP-SUB )
+FP debug: upn: result      "90.440000000000000000"
+FP debug: upn: +++ result of upn-expression is "(90.440000000000000000)"
+)
+Package beamerposter Info: paperwidth=3035.33978pt, paperheight=2601.72006pt on
+ input line 172.
+Package beamerposter Info: textwidth=3006.88702pt, textwidth=2573.2673pt on inp
+ut line 173.
+Package beamerposter Info: fontscale=1.0, myfontscale=1.25 on input line 174.
+ ( FP-UPN
+FP debug: upn: +++ computing upn-expression "myfontscale fontSizeX * 2 round"
+FP debug: upn: calculating "myfontscale"
+FP debug: upn: result      "1.25"
+FP debug: upn: calculating "fontSizeX"
+FP debug: upn: result      "12"
+FP debug: upn: calculating "12 mul 1.25"
+( FP-MUL )
+FP debug: upn: result      "15.000000000000000000"
+FP debug: upn: calculating "2"
+FP debug: upn: result      "2"
+FP debug: upn: calculating "round(15.000000000000000000:2)"
+( FP-ROUND )
+FP debug: upn: result      "15.00"
+FP debug: upn: +++ result of upn-expression is "(15.00)"
+) ( FP-UPN
+FP debug: upn: +++ computing upn-expression "myfontscale fontSizeY * 2 round"
+FP debug: upn: calculating "myfontscale"
+FP debug: upn: result      "1.25"
+FP debug: upn: calculating "fontSizeY"
+FP debug: upn: result      "14"
+FP debug: upn: calculating "14 mul 1.25"
+( FP-MUL )
+FP debug: upn: result      "17.500000000000000000"
+FP debug: upn: calculating "2"
+FP debug: upn: result      "2"
+FP debug: upn: calculating "round(17.500000000000000000:2)"
+( FP-ROUND )
+FP debug: upn: result      "17.50"
+FP debug: upn: +++ result of upn-expression is "(17.50)"
+) ( FP-UPN
+FP debug: upn: +++ computing upn-expression "myfontscale fontSizeX * 2 round"
+FP debug: upn: calculating "myfontscale"
+FP debug: upn: result      "1.25"
+FP debug: upn: calculating "fontSizeX"
+FP debug: upn: result      "14.4"
+FP debug: upn: calculating "14.4 mul 1.25"
+( FP-MUL )
+FP debug: upn: result      "18.000000000000000000"
+FP debug: upn: calculating "2"
+FP debug: upn: result      "2"
+FP debug: upn: calculating "round(18.000000000000000000:2)"
+( FP-ROUND )
+FP debug: upn: result      "18.00"
+FP debug: upn: +++ result of upn-expression is "(18.00)"
+) ( FP-UPN
+FP debug: upn: +++ computing upn-expression "myfontscale fontSizeY * 2 round"
+FP debug: upn: calculating "myfontscale"
+FP debug: upn: result      "1.25"
+FP debug: upn: calculating "fontSizeY"
+FP debug: upn: result      "18"
+FP debug: upn: calculating "18 mul 1.25"
+( FP-MUL )
+FP debug: upn: result      "22.500000000000000000"
+FP debug: upn: calculating "2"
+FP debug: upn: result      "2"
+FP debug: upn: calculating "round(22.500000000000000000:2)"
+( FP-ROUND )
+FP debug: upn: result      "22.50"
+FP debug: upn: +++ result of upn-expression is "(22.50)"
+) ( FP-UPN
+FP debug: upn: +++ computing upn-expression "myfontscale fontSizeX * 2 round"
+FP debug: upn: calculating "myfontscale"
+FP debug: upn: result      "1.25"
+FP debug: upn: calculating "fontSizeX"
+FP debug: upn: result      "17.28"
+FP debug: upn: calculating "17.28 mul 1.25"
+( FP-MUL )
+FP debug: upn: result      "21.600000000000000000"
+FP debug: upn: calculating "2"
+FP debug: upn: result      "2"
+FP debug: upn: calculating "round(21.600000000000000000:2)"
+( FP-ROUND )
+FP debug: upn: result      "21.60"
+FP debug: upn: +++ result of upn-expression is "(21.60)"
+) ( FP-UPN
+FP debug: upn: +++ computing upn-expression "myfontscale fontSizeY * 2 round"
+FP debug: upn: calculating "myfontscale"
+FP debug: upn: result      "1.25"
+FP debug: upn: calculating "fontSizeY"
+FP debug: upn: result      "22"
+FP debug: upn: calculating "22 mul 1.25"
+( FP-MUL )
+FP debug: upn: result      "27.500000000000000000"
+FP debug: upn: calculating "2"
+FP debug: upn: result      "2"
+FP debug: upn: calculating "round(27.500000000000000000:2)"
+( FP-ROUND )
+FP debug: upn: result      "27.50"
+FP debug: upn: +++ result of upn-expression is "(27.50)"
+) ( FP-UPN
+FP debug: upn: +++ computing upn-expression "myfontscale fontSizeX * 2 round"
+FP debug: upn: calculating "myfontscale"
+FP debug: upn: result      "1.25"
+FP debug: upn: calculating "fontSizeX"
+FP debug: upn: result      "20.74"
+FP debug: upn: calculating "20.74 mul 1.25"
+( FP-MUL )
+FP debug: upn: result      "25.925000000000000000"
+FP debug: upn: calculating "2"
+FP debug: upn: result      "2"
+FP debug: upn: calculating "round(25.925000000000000000:2)"
+( FP-ROUND )
+FP debug: upn: result      "25.93"
+FP debug: upn: +++ result of upn-expression is "(25.93)"
+) ( FP-UPN
+FP debug: upn: +++ computing upn-expression "myfontscale fontSizeY * 2 round"
+FP debug: upn: calculating "myfontscale"
+FP debug: upn: result      "1.25"
+FP debug: upn: calculating "fontSizeY"
+FP debug: upn: result      "25"
+FP debug: upn: calculating "25 mul 1.25"
+( FP-MUL )
+FP debug: upn: result      "31.250000000000000000"
+FP debug: upn: calculating "2"
+FP debug: upn: result      "2"
+FP debug: upn: calculating "round(31.250000000000000000:2)"
+( FP-ROUND )
+FP debug: upn: result      "31.25"
+FP debug: upn: +++ result of upn-expression is "(31.25)"
+) ( FP-UPN
+FP debug: upn: +++ computing upn-expression "myfontscale fontSizeX * 2 round"
+FP debug: upn: calculating "myfontscale"
+FP debug: upn: result      "1.25"
+FP debug: upn: calculating "fontSizeX"
+FP debug: upn: result      "24.88"
+FP debug: upn: calculating "24.88 mul 1.25"
+( FP-MUL )
+FP debug: upn: result      "31.100000000000000000"
+FP debug: upn: calculating "2"
+FP debug: upn: result      "2"
+FP debug: upn: calculating "round(31.100000000000000000:2)"
+( FP-ROUND )
+FP debug: upn: result      "31.10"
+FP debug: upn: +++ result of upn-expression is "(31.10)"
+) ( FP-UPN
+FP debug: upn: +++ computing upn-expression "myfontscale fontSizeY * 2 round"
+FP debug: upn: calculating "myfontscale"
+FP debug: upn: result      "1.25"
+FP debug: upn: calculating "fontSizeY"
+FP debug: upn: result      "30"
+FP debug: upn: calculating "30 mul 1.25"
+( FP-MUL )
+FP debug: upn: result      "37.500000000000000000"
+FP debug: upn: calculating "2"
+FP debug: upn: result      "2"
+FP debug: upn: calculating "round(37.500000000000000000:2)"
+( FP-ROUND )
+FP debug: upn: result      "37.50"
+FP debug: upn: +++ result of upn-expression is "(37.50)"
+) ( FP-UPN
+FP debug: upn: +++ computing upn-expression "myfontscale fontSizeX * 2 round"
+FP debug: upn: calculating "myfontscale"
+FP debug: upn: result      "1.25"
+FP debug: upn: calculating "fontSizeX"
+FP debug: upn: result      "29.86"
+FP debug: upn: calculating "29.86 mul 1.25"
+( FP-MUL )
+FP debug: upn: result      "37.325000000000000000"
+FP debug: upn: calculating "2"
+FP debug: upn: result      "2"
+FP debug: upn: calculating "round(37.325000000000000000:2)"
+( FP-ROUND )
+FP debug: upn: result      "37.33"
+FP debug: upn: +++ result of upn-expression is "(37.33)"
+) ( FP-UPN
+FP debug: upn: +++ computing upn-expression "myfontscale fontSizeY * 2 round"
+FP debug: upn: calculating "myfontscale"
+FP debug: upn: result      "1.25"
+FP debug: upn: calculating "fontSizeY"
+FP debug: upn: result      "37"
+FP debug: upn: calculating "37 mul 1.25"
+( FP-MUL )
+FP debug: upn: result      "46.250000000000000000"
+FP debug: upn: calculating "2"
+FP debug: upn: result      "2"
+FP debug: upn: calculating "round(46.250000000000000000:2)"
+( FP-ROUND )
+FP debug: upn: result      "46.25"
+FP debug: upn: +++ result of upn-expression is "(46.25)"
+) ( FP-UPN
+FP debug: upn: +++ computing upn-expression "myfontscale fontSizeX * 2 round"
+FP debug: upn: calculating "myfontscale"
+FP debug: upn: result      "1.25"
+FP debug: upn: calculating "fontSizeX"
+FP debug: upn: result      "35.83"
+FP debug: upn: calculating "35.83 mul 1.25"
+( FP-MUL )
+FP debug: upn: result      "44.787500000000000000"
+FP debug: upn: calculating "2"
+FP debug: upn: result      "2"
+FP debug: upn: calculating "round(44.787500000000000000:2)"
+( FP-ROUND )
+FP debug: upn: result      "44.79"
+FP debug: upn: +++ result of upn-expression is "(44.79)"
+) ( FP-UPN
+FP debug: upn: +++ computing upn-expression "myfontscale fontSizeY * 2 round"
+FP debug: upn: calculating "myfontscale"
+FP debug: upn: result      "1.25"
+FP debug: upn: calculating "fontSizeY"
+FP debug: upn: result      "45"
+FP debug: upn: calculating "45 mul 1.25"
+( FP-MUL )
+FP debug: upn: result      "56.250000000000000000"
+FP debug: upn: calculating "2"
+FP debug: upn: result      "2"
+FP debug: upn: calculating "round(56.250000000000000000:2)"
+( FP-ROUND )
+FP debug: upn: result      "56.25"
+FP debug: upn: +++ result of upn-expression is "(56.25)"
+) ( FP-UPN
+FP debug: upn: +++ computing upn-expression "myfontscale fontSizeX * 2 round"
+FP debug: upn: calculating "myfontscale"
+FP debug: upn: result      "1.25"
+FP debug: upn: calculating "fontSizeX"
+FP debug: upn: result      "43"
+FP debug: upn: calculating "43 mul 1.25"
+( FP-MUL )
+FP debug: upn: result      "53.750000000000000000"
+FP debug: upn: calculating "2"
+FP debug: upn: result      "2"
+FP debug: upn: calculating "round(53.750000000000000000:2)"
+( FP-ROUND )
+FP debug: upn: result      "53.75"
+FP debug: upn: +++ result of upn-expression is "(53.75)"
+) ( FP-UPN
+FP debug: upn: +++ computing upn-expression "myfontscale fontSizeY * 2 round"
+FP debug: upn: calculating "myfontscale"
+FP debug: upn: result      "1.25"
+FP debug: upn: calculating "fontSizeY"
+FP debug: upn: result      "54"
+FP debug: upn: calculating "54 mul 1.25"
+( FP-MUL )
+FP debug: upn: result      "67.500000000000000000"
+FP debug: upn: calculating "2"
+FP debug: upn: result      "2"
+FP debug: upn: calculating "round(67.500000000000000000:2)"
+( FP-ROUND )
+FP debug: upn: result      "67.50"
+FP debug: upn: +++ result of upn-expression is "(67.50)"
+) ( FP-UPN
+FP debug: upn: +++ computing upn-expression "myfontscale fontSizeX * 2 round"
+FP debug: upn: calculating "myfontscale"
+FP debug: upn: result      "1.25"
+FP debug: upn: calculating "fontSizeX"
+FP debug: upn: result      "51.6"
+FP debug: upn: calculating "51.6 mul 1.25"
+( FP-MUL )
+FP debug: upn: result      "64.500000000000000000"
+FP debug: upn: calculating "2"
+FP debug: upn: result      "2"
+FP debug: upn: calculating "round(64.500000000000000000:2)"
+( FP-ROUND )
+FP debug: upn: result      "64.50"
+FP debug: upn: +++ result of upn-expression is "(64.50)"
+) ( FP-UPN
+FP debug: upn: +++ computing upn-expression "myfontscale fontSizeY * 2 round"
+FP debug: upn: calculating "myfontscale"
+FP debug: upn: result      "1.25"
+FP debug: upn: calculating "fontSizeY"
+FP debug: upn: result      "64"
+FP debug: upn: calculating "64 mul 1.25"
+( FP-MUL )
+FP debug: upn: result      "80.000000000000000000"
+FP debug: upn: calculating "2"
+FP debug: upn: result      "2"
+FP debug: upn: calculating "round(80.000000000000000000:2)"
+( FP-ROUND )
+FP debug: upn: result      "80.00"
+FP debug: upn: +++ result of upn-expression is "(80.00)"
+) ( FP-UPN
+FP debug: upn: +++ computing upn-expression "myfontscale fontSizeX * 2 round"
+FP debug: upn: calculating "myfontscale"
+FP debug: upn: result      "1.25"
+FP debug: upn: calculating "fontSizeX"
+FP debug: upn: result      "61.92"
+FP debug: upn: calculating "61.92 mul 1.25"
+( FP-MUL )
+FP debug: upn: result      "77.400000000000000000"
+FP debug: upn: calculating "2"
+FP debug: upn: result      "2"
+FP debug: upn: calculating "round(77.400000000000000000:2)"
+( FP-ROUND )
+FP debug: upn: result      "77.40"
+FP debug: upn: +++ result of upn-expression is "(77.40)"
+) ( FP-UPN
+FP debug: upn: +++ computing upn-expression "myfontscale fontSizeY * 2 round"
+FP debug: upn: calculating "myfontscale"
+FP debug: upn: result      "1.25"
+FP debug: upn: calculating "fontSizeY"
+FP debug: upn: result      "77"
+FP debug: upn: calculating "77 mul 1.25"
+( FP-MUL )
+FP debug: upn: result      "96.250000000000000000"
+FP debug: upn: calculating "2"
+FP debug: upn: result      "2"
+FP debug: upn: calculating "round(96.250000000000000000:2)"
+( FP-ROUND )
+FP debug: upn: result      "96.25"
+FP debug: upn: +++ result of upn-expression is "(96.25)"
+) ( FP-UPN
+FP debug: upn: +++ computing upn-expression "myfontscale fontSizeX * 2 round"
+FP debug: upn: calculating "myfontscale"
+FP debug: upn: result      "1.25"
+FP debug: upn: calculating "fontSizeX"
+FP debug: upn: result      "74.3"
+FP debug: upn: calculating "74.3 mul 1.25"
+( FP-MUL )
+FP debug: upn: result      "92.875000000000000000"
+FP debug: upn: calculating "2"
+FP debug: upn: result      "2"
+FP debug: upn: calculating "round(92.875000000000000000:2)"
+( FP-ROUND )
+FP debug: upn: result      "92.88"
+FP debug: upn: +++ result of upn-expression is "(92.88)"
+) ( FP-UPN
+FP debug: upn: +++ computing upn-expression "myfontscale fontSizeY * 2 round"
+FP debug: upn: calculating "myfontscale"
+FP debug: upn: result      "1.25"
+FP debug: upn: calculating "fontSizeY"
+FP debug: upn: result      "93"
+FP debug: upn: calculating "93 mul 1.25"
+( FP-MUL )
+FP debug: upn: result      "116.250000000000000000"
+FP debug: upn: calculating "2"
+FP debug: upn: result      "2"
+FP debug: upn: calculating "round(116.250000000000000000:2)"
+( FP-ROUND )
+FP debug: upn: result      "116.25"
+FP debug: upn: +++ result of upn-expression is "(116.25)"
+) ( FP-UPN
+FP debug: upn: +++ computing upn-expression "myfontscale fontSizeX * 2 round"
+FP debug: upn: calculating "myfontscale"
+FP debug: upn: result      "1.25"
+FP debug: upn: calculating "fontSizeX"
+FP debug: upn: result      "89.16"
+FP debug: upn: calculating "89.16 mul 1.25"
+( FP-MUL )
+FP debug: upn: result      "111.450000000000000000"
+FP debug: upn: calculating "2"
+FP debug: upn: result      "2"
+FP debug: upn: calculating "round(111.450000000000000000:2)"
+( FP-ROUND )
+FP debug: upn: result      "111.45"
+FP debug: upn: +++ result of upn-expression is "(111.45)"
+) ( FP-UPN
+FP debug: upn: +++ computing upn-expression "myfontscale fontSizeY * 2 round"
+FP debug: upn: calculating "myfontscale"
+FP debug: upn: result      "1.25"
+FP debug: upn: calculating "fontSizeY"
+FP debug: upn: result      "112"
+FP debug: upn: calculating "112 mul 1.25"
+( FP-MUL )
+FP debug: upn: result      "140.000000000000000000"
+FP debug: upn: calculating "2"
+FP debug: upn: result      "2"
+FP debug: upn: calculating "round(140.000000000000000000:2)"
+( FP-ROUND )
+FP debug: upn: result      "140.00"
+FP debug: upn: +++ result of upn-expression is "(140.00)"
+) ( FP-UPN
+FP debug: upn: +++ computing upn-expression "myfontscale fontSizeX * 2 round"
+FP debug: upn: calculating "myfontscale"
+FP debug: upn: result      "1.25"
+FP debug: upn: calculating "fontSizeX"
+FP debug: upn: result      "107"
+FP debug: upn: calculating "107 mul 1.25"
+( FP-MUL )
+FP debug: upn: result      "133.750000000000000000"
+FP debug: upn: calculating "2"
+FP debug: upn: result      "2"
+FP debug: upn: calculating "round(133.750000000000000000:2)"
+( FP-ROUND )
+FP debug: upn: result      "133.75"
+FP debug: upn: +++ result of upn-expression is "(133.75)"
+) ( FP-UPN
+FP debug: upn: +++ computing upn-expression "myfontscale fontSizeY * 2 round"
+FP debug: upn: calculating "myfontscale"
+FP debug: upn: result      "1.25"
+FP debug: upn: calculating "fontSizeY"
+FP debug: upn: result      "134"
+FP debug: upn: calculating "134 mul 1.25"
+( FP-MUL )
+FP debug: upn: result      "167.500000000000000000"
+FP debug: upn: calculating "2"
+FP debug: upn: result      "2"
+FP debug: upn: calculating "round(167.500000000000000000:2)"
+( FP-ROUND )
+FP debug: upn: result      "167.50"
+FP debug: upn: +++ result of upn-expression is "(167.50)"
+) ( FP-UPN
+FP debug: upn: +++ computing upn-expression "labelWidthValue myfontscale * 2 ro
+und"
+FP debug: upn: calculating "labelWidthValue"
+FP debug: upn: result      "1"
+FP debug: upn: calculating "myfontscale"
+FP debug: upn: result      "1.25"
+FP debug: upn: calculating "1.25 mul 1"
+( FP-MUL )
+FP debug: upn: result      "1.250000000000000000"
+FP debug: upn: calculating "2"
+FP debug: upn: result      "2"
+FP debug: upn: calculating "round(1.250000000000000000:2)"
+( FP-ROUND )
+FP debug: upn: result      "1.25"
+FP debug: upn: +++ result of upn-expression is "(1.25)"
+) ( FP-UPN
+FP debug: upn: +++ computing upn-expression "labelSepValue myfontscale * 2 roun
+d"
+FP debug: upn: calculating "labelSepValue"
+FP debug: upn: result      "1"
+FP debug: upn: calculating "myfontscale"
+FP debug: upn: result      "1.25"
+FP debug: upn: calculating "1.25 mul 1"
+( FP-MUL )
+FP debug: upn: result      "1.250000000000000000"
+FP debug: upn: calculating "2"
+FP debug: upn: result      "2"
+FP debug: upn: calculating "round(1.250000000000000000:2)"
+( FP-ROUND )
+FP debug: upn: result      "1.25"
+FP debug: upn: +++ result of upn-expression is "(1.25)"
+) ( FP-UPN
+FP debug: upn: +++ computing upn-expression "indentionLevelValuei myfontscale *
+ 2 round"
+FP debug: upn: calculating "indentionLevelValuei"
+FP debug: upn: result      "4"
+FP debug: upn: calculating "myfontscale"
+FP debug: upn: result      "1.25"
+FP debug: upn: calculating "1.25 mul 4"
+( FP-MUL )
+FP debug: upn: result      "5.000000000000000000"
+FP debug: upn: calculating "2"
+FP debug: upn: result      "2"
+FP debug: upn: calculating "round(5.000000000000000000:2)"
+( FP-ROUND )
+FP debug: upn: result      "5.00"
+FP debug: upn: +++ result of upn-expression is "(5.00)"
+) ( FP-UPN
+FP debug: upn: +++ computing upn-expression "indentionLevelValueii myfontscale 
+* 2 round"
+FP debug: upn: calculating "indentionLevelValueii"
+FP debug: upn: result      "2.2"
+FP debug: upn: calculating "myfontscale"
+FP debug: upn: result      "1.25"
+FP debug: upn: calculating "1.25 mul 2.2"
+( FP-MUL )
+FP debug: upn: result      "2.750000000000000000"
+FP debug: upn: calculating "2"
+FP debug: upn: result      "2"
+FP debug: upn: calculating "round(2.750000000000000000:2)"
+( FP-ROUND )
+FP debug: upn: result      "2.75"
+FP debug: upn: +++ result of upn-expression is "(2.75)"
+) ( FP-UPN
+FP debug: upn: +++ computing upn-expression "indentionLevelValueiii myfontscale
+ * 2 round"
+FP debug: upn: calculating "indentionLevelValueiii"
+FP debug: upn: result      "1.87"
+FP debug: upn: calculating "myfontscale"
+FP debug: upn: result      "1.25"
+FP debug: upn: calculating "1.25 mul 1.87"
+( FP-MUL )
+FP debug: upn: result      "2.337500000000000000"
+FP debug: upn: calculating "2"
+FP debug: upn: result      "2"
+FP debug: upn: calculating "round(2.337500000000000000:2)"
+( FP-ROUND )
+FP debug: upn: result      "2.34"
+FP debug: upn: +++ result of upn-expression is "(2.34)"
+) ( FP-UPN
+FP debug: upn: +++ computing upn-expression "bibIconScaleValue myfontscale * 2 
+round"
+FP debug: upn: calculating "bibIconScaleValue"
+FP debug: upn: result      "2"
+FP debug: upn: calculating "myfontscale"
+FP debug: upn: result      "1.25"
+FP debug: upn: calculating "1.25 mul 2"
+( FP-MUL )
+FP debug: upn: result      "2.500000000000000000"
+FP debug: upn: calculating "2"
+FP debug: upn: result      "2"
+FP debug: upn: calculating "round(2.500000000000000000:2)"
+( FP-ROUND )
+FP debug: upn: result      "2.50"
+FP debug: upn: +++ result of upn-expression is "(2.50)"
+))
+\columnheight=\skip87
+
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\upquote\upquote.
+sty"
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
+tim
+) (poster.aux)
+\openout1 = `poster.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 372.
+LaTeX Font Info:    ... okay on input line 372.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 372.
+LaTeX Font Info:    ... okay on input line 372.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 372.
+LaTeX Font Info:    ... okay on input line 372.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 372.
+LaTeX Font Info:    ... okay on input line 372.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 372.
+LaTeX Font Info:    ... okay on input line 372.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 372.
+LaTeX Font Info:    ... okay on input line 372.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 372.
+LaTeX Font Info:    ... okay on input line 372.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: custom
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: includehead includefoot 
+* h-part:(L,W,R)=(35.56593pt, 2964.20792pt, 35.56593pt)
+* v-part:(T,H,B)=(0.0pt, 2601.72006pt, 0.0pt)
+* \paperwidth=3035.33978pt
+* \paperheight=2601.72006pt
+* \textwidth=2964.20792pt
+* \textheight=2573.26733pt
+* \oddsidemargin=-36.70406pt
+* \evensidemargin=-36.70406pt
+* \topmargin=-72.26999pt
+* \headheight=14.22636pt
+* \headsep=0.0pt
+* \topskip=11.0pt
+* \footskip=14.22636pt
+* \marginparwidth=4.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.
+mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count367
+\scratchdimen=\dimen347
+\scratchbox=\box112
+\nofMPsegments=\count368
+\nofMParguments=\count369
+\everyMPshowfont=\toks59
+\MPscratchCnt=\count370
+\MPscratchDim=\dimen348
+\MPnumerator=\count371
+\makeMPintoPDFobject=\count372
+\everyMPtoPDFconversion=\toks60
+) ABD: EveryShipout initializing macros
+\AtBeginShipoutBox=\box113
+Package hyperref Info: Link coloring OFF on input line 372.
+
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\nameref
+.sty"
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\getti
+tlestring.sty"
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count373
+)
+LaTeX Info: Redefining \ref on input line 372.
+LaTeX Info: Redefining \pageref on input line 372.
+LaTeX Info: Redefining \nameref on input line 372.
+ (poster.out) (poster.out)
+\@outlinefile=\write6
+\openout6 = `poster.out'.
+
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 372.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 372.
+\symnumbers=\mathgroup12
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 372.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
+(Font)                  OT1/mathkerncmss/m/sl --> OT1/cmss/m/it on input line 3
+72.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
+(Font)                  OT1/mathkerncmss/bx/sl --> OT1/cmss/m/it on input line 
+372.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 372.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 372.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 372.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 372.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 372.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 372.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 372.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 372.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 372.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 372.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 372.
+LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 372.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
+(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 372.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/cmr/bx/n on input line 372.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/bx/n on input line 372.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 372.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 372.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/bx/n on input line 372.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 372.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
+(Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 3
+72.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
+(Font)                  OT1/cmss/bx/it --> OT1/mathkerncmss/m/sl on input line 
+372.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
+(Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
+ut line 372.
+
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\translator\trans
+lator-basic-dictionary-English.dict"
+Dictionary: translator-basic-dictionary, Language: English 
+)
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\translator\trans
+lator-bibliography-dictionary-English.dict"
+Dictionary: translator-bibliography-dictionary, Language: English 
+)
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\translator\trans
+lator-environment-dictionary-English.dict"
+Dictionary: translator-environment-dictionary, Language: English 
+)
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\translator\trans
+lator-months-dictionary-English.dict"
+Dictionary: translator-months-dictionary, Language: English 
+)
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\translator\trans
+lator-numbers-dictionary-English.dict"
+Dictionary: translator-numbers-dictionary, Language: English 
+)
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\translator\trans
+lator-theorem-dictionary-English.dict"
+Dictionary: translator-theorem-dictionary, Language: English 
+)
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\textcomp.st
+y"
+Package: textcomp 2017/04/05 v2.0i Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
+
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1enc.def"
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+)
+LaTeX Info: Redefining \oldstylenums on input line 334.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
+Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
+)
+\c@lstlisting=\count374
+ (poster.nav)
+
+LaTeX Font Warning: Font shape `OT1/cmtt/bx/n' in size <37.33> not available
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 372.
+
+LaTeX Font Info:    Calculating math sizes for size <37.33> on input line 372.
+LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
+line 372.
+
+("C:\Users\Leandra\AppData\Local\Programs\MiKTeX 2.9\tex\latex\sansmathaccent\o
+t1mathkerncmss.fd"
+File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
+thkerncmss.
+)
+<figures/LUC_vertical_notagline.png, id=12, 41.4348pt x 52.998pt>
+File: figures/LUC_vertical_notagline.png Graphic file (type png)
+<use figures/LUC_vertical_notagline.png>
+Package pdftex.def Info: figures/LUC_vertical_notagline.png  used on input line
+ 372. on input line 372.
+Package pdftex.def Info: Requested size: 145.02136pt x 185.49252pt on input lin
+e 372.
+LaTeX Font Info:    Calculating math sizes for size <31.1> on input line 745.
+
+
+Package amsmath Warning: Foreign command \atopwithdelims;
+(amsmath)                \frac or \genfrac should be used instead
+(amsmath)                 on input line 745.
+
+<figures/allps.png, id=14, 657.95813pt x 437.38406pt>
+File: figures/allps.png Graphic file (type png)
+<use figures/allps.png>
+Package pdftex.def Info: figures/allps.png  used on input line 745. on input li
+ne 745.
+Package pdftex.def Info: Requested size: 657.95653pt x 437.38298pt on input lin
+e 745.
+
+LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <31.1> not available
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 745.
+
+
+
+Overfull \hbox (14.16998pt too wide) in paragraph at lines 745--745
+ []$[]$  
+ []
+
+<figures/trace.png, id=15, 514.17094pt x 437.38406pt>
+File: figures/trace.png Graphic file (type png)
+<use figures/trace.png>
+Package pdftex.def Info: figures/trace.png  used on input line 745. on input li
+ne 745.
+Package pdftex.def Info: Requested size: 514.1697pt x 437.38298pt on input line
+ 745.
+<figures/posteriors.png, id=16, 652.4375pt x 283.0575pt>
+File: figures/posteriors.png Graphic file (type png)
+<use figures/posteriors.png>
+Package pdftex.def Info: figures/posteriors.png  used on input line 745. on inp
+ut line 745.
+Package pdftex.def Info: Requested size: 880.79243pt x 382.12839pt on input lin
+e 745.
+
+LaTeX Font Warning: Command \boldmath invalid in math mode on input line 745.
+
+
+LaTeX Font Warning: Command \mathversion invalid in math mode on input line 745
+.
+
+
+Overfull \hbox (14.16998pt too wide) in paragraph at lines 745--745
+ []$[]$  
+ []
+
+<figures/traces.png, id=17, 415.5525pt x 348.80313pt>
+File: figures/traces.png Graphic file (type png)
+<use figures/traces.png>
+Package pdftex.def Info: figures/traces.png  used on input line 745. on input l
+ine 745.
+Package pdftex.def Info: Requested size: 831.10297pt x 697.60455pt on input lin
+e 745.
+<figures/table.png, id=18, 288.57813pt x 66.2475pt>
+File: figures/table.png Graphic file (type png)
+<use figures/table.png>
+Package pdftex.def Info: figures/table.png  used on input line 745. on input li
+ne 745.
+Package pdftex.def Info: Requested size: 577.15482pt x 132.49466pt on input lin
+e 745.
+<figures/miscPP.png, id=19, 64.24pt x 64.24pt>
+File: figures/miscPP.png Graphic file (type png)
+<use figures/miscPP.png>
+Package pdftex.def Info: figures/miscPP.png  used on input line 745. on input l
+ine 745.
+Package pdftex.def Info: Requested size: 35.33209pt x 35.33209pt on input line 
+745.
+File: figures/LUC_vertical_notagline.png Graphic file (type png)
+<use figures/LUC_vertical_notagline.png>
+Package pdftex.def Info: figures/LUC_vertical_notagline.png  used on input line
+ 745. on input line 745.
+Package pdftex.def Info: Requested size: 145.02136pt x 185.49252pt on input lin
+e 745.
+[1{C:/Users/Leandra/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+ <./figures/LUC_vertical_notagline.png> <./figures/allps.png> <./figures/trace.
+png> <./figures/posteriors.png> <./figures/traces.png> <./figures/table.png> <.
+/figures/miscPP.png>]
+\tf@nav=\write7
+\openout7 = `poster.nav'.
+
+\tf@toc=\write8
+\openout8 = `poster.toc'.
+
+\tf@snm=\write9
+\openout9 = `poster.snm'.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 747.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 747.
+ (poster.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 747.
+
+
+ *File List*
+  beamer.cls    2018/02/20 v3.50 A class for typesetting presentations
+beamerbasemodes.sty    
+etoolbox.sty    2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
+beamerbasedecode.sty    
+   ifpdf.sty    2017/03/15 v3.2 Provides the ifpdf switch
+beamerbaseoptions.sty    
+  keyval.sty    2014/10/28 v1.15 key=value parser (DPC)
+geometry.sty    2010/09/12 v5.6 Page Geometry
+  ifvtex.sty    2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+ ifxetex.sty    2010/09/12 v0.6 Provides ifxetex conditional
+geometry.cfg
+  size11.clo    2014/09/29 v1.4h Standard LaTeX file (size option)
+ pgfcore.sty    2010/04/11 v3.0.1a (rcs-revision 1.7)
+graphicx.sty    2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+graphics.sty    2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+    trig.sty    2016/01/03 v1.10 sin cos tan (DPC)
+graphics.cfg    2016/06/04 v1.11 sample graphics configuration
+  pdftex.def    2017/06/24 v1.0g Graphics/color driver for pdftex
+  pgfsys.sty    2014/07/09 v3.0.1a (rcs-revision 1.48)
+  pgfrcs.sty    2015/08/07 v3.0.1a (rcs-revision 1.31)
+everyshi.sty    2001/05/15 v3.00 EveryShipout Package (MS)
+  pgfrcs.code.tex
+  pgfsys.code.tex
+pgfsyssoftpath.code.tex    2013/09/09  (rcs-revision 1.9)
+pgfsysprotocol.code.tex    2006/10/16  (rcs-revision 1.4)
+  xcolor.sty    2016/05/11 v2.12 LaTeX color extensions (UK)
+   color.cfg    2016/01/02 v1.6 sample color configuration
+ pgfcore.code.tex
+ xxcolor.sty    2003/10/24 ver 0.1
+atbegshi.sty    2016/06/09 v1.18 At begin shipout hook (HO)
+infwarerr.sty    2016/05/16 v1.4 Providing info/warning/error messages (HO)
+ ltxcmds.sty    2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+hyperref.sty    2017/03/14 v6.85a Hypertext links for LaTeX
+hobsub-hyperref.sty    2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+hobsub-generic.sty    2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+  hobsub.sty    2016/05/16 v1.14 Construct package bundles (HO)
+ifluatex.sty    2016/05/16 v1.4 Provides the ifluatex switch (HO)
+ intcalc.sty    2016/05/16 v1.2 Expandable calculations with integers (HO)
+etexcmds.sty    2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+kvsetkeys.sty    2016/05/16 v1.17 Key value parser (HO)
+kvdefinekeys.sty    2016/05/16 v1.4 Define keys (HO)
+pdftexcmds.sty    2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO)
+pdfescape.sty    2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+bigintcalc.sty    2016/05/16 v1.4 Expandable calculations on big integers (HO)
+  bitset.sty    2016/05/16 v1.2 Handle bit-vector datatype (HO)
+uniquecounter.sty    2016/05/16 v1.3 Provide unlimited unique counter (HO)
+letltxmacro.sty    2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+ hopatch.sty    2016/05/16 v1.3 Wrapper for package hooks (HO)
+xcolor-patch.sty    2016/05/16 xcolor patch
+atveryend.sty    2016/05/16 v1.9 Hooks at the very end of document (HO)
+refcount.sty    2016/05/16 v3.5 Data extraction from label references (HO)
+ hycolor.sty    2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+ auxhook.sty    2016/05/16 v1.4 Hooks for auxiliary files (HO)
+kvoptions.sty    2016/05/16 v3.12 Key value format for package options (HO)
+  pd1enc.def    2017/03/14 v6.85a Hyperref: PDFDocEncoding definition (HO)
+hyperref.cfg    2002/06/06 v1.2 hyperref configuration of TeXLive
+     url.sty    2013/09/16  ver 3.4  Verb mode for urls, etc.
+ hpdftex.def    2017/03/14 v6.85a Hyperref driver for pdfTeX
+rerunfilecheck.sty    2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+beamerbaserequires.sty    
+beamerbasecompatibility.sty    
+beamerbasefont.sty    
+ amssymb.sty    2013/01/14 v3.01 AMS font symbols
+amsfonts.sty    2013/01/14 v3.01 Basic AMSFonts support
+sansmathaccent.sty    2013/03/28
+filehook.sty    2011/10/12 v0.5d Hooks for input files
+beamerbasetranslator.sty    
+translator.sty    2018/01/04 v1.12 Easy translation of strings in LaTeX
+beamerbasemisc.sty    
+beamerbasetwoscreens.sty    
+beamerbaseoverlay.sty    
+beamerbasetitle.sty    
+beamerbasesection.sty    
+beamerbaseframe.sty    
+beamerbaseverbatim.sty    
+beamerbaseframesize.sty    
+beamerbaseframecomponents.sty    
+beamerbasecolor.sty    
+beamerbasenotes.sty    
+beamerbasetoc.sty    
+beamerbasetemplates.sty    
+beamerbaseauxtemplates.sty    
+beamerbaseboxes.sty    
+beamerbaselocalstructure.sty    
+enumerate.sty    2015/07/23 v3.00 enumerate extensions (DPC)
+beamerbasenavigation.sty    
+beamerbasetheorems.sty    
+ amsmath.sty    2017/09/02 v2.17a AMS math features
+ amstext.sty    2000/06/29 v2.01 AMS text
+  amsgen.sty    1999/11/30 v2.0 generic functions
+  amsbsy.sty    1999/11/29 v1.2d Bold Symbols
+  amsopn.sty    2016/03/08 v2.02 operator names
+  amsthm.sty    2015/03/04 v2.20.2
+beamerbasethemes.sty    
+beamerthemedefault.sty    
+beamerfontthemedefault.sty    
+beamercolorthemedefault.sty    
+beamerinnerthemedefault.sty    
+beamerouterthemedefault.sty    
+  framed.sty    2011/10/22 v 0.96: framed or shaded text with page breaks
+   alltt.sty    1997/06/16 v2.0g defines alltt environment
+ grffile.sty    2016/05/16 v1.17 Extended file name support for graphics (HO)
+beamerthemeI6pd2.sty    
+styles/loyolacolors.sty
+styles/tangocolors.sty
+    ulem.sty    2012/05/18
+colortbl.sty    2012/02/13 v1.0a Color table columns (DPC)
+   array.sty    2016/10/06 v2.4d Tabular extension package (FMi)
+      bm.sty    2017/01/16 v1.2c Bold Symbol Support (DPC/FMi)
+  dsfont.sty    1995/08/01 v0.1 Double stroke roman fonts
+   breqn.sty    2017/01/27 v0.98e Breaking equations
+   expl3.sty    2018/03/05 L3 programming layer (loader) 
+expl3-code.tex    2018/03/05 L3 programming layer 
+l3pdfmode.def    2017/03/18 v L3 Experimental driver: PDF mode
+flexisym.sty    2017/01/27 v0.98e Make math characters macros
+  cmbase.sym    2007/12/19 v0.92
+mathstyle.sty    2017/01/27 0.98e Tracking mathstyle implicitly
+    calc.sty    2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+epstopdf.sty    2016/05/15 v2.6 Conversion with epstopdf on the fly (HO)
+epstopdf-base.sty    2016/05/15 v2.6 Base part for package epstopdf
+  grfext.sty    2016/05/16 v1.2 Manage graphics extensions (HO)
+bigstrut.sty    2016/11/25 v2.2 Provide larger struts in tabulars
+tabularx.sty    2016/02/03 v2.11 `tabularx' package (DPC)
+longtable.sty    2014/10/28 v4.11 Multi-page Table package (DPC)
+multirow.sty    2016/11/25 v2.2 Span multiple rows of a table
+multicol.sty    2017/04/11 v1.8q multicolumn formatting (FMi)
+afterpage.sty    2014/10/28 v1.08 After-Page Package (DPC)
+verbatim.sty    2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
+fancyvrb.sty    2008/02/07
+listings.sty    2015/06/04 1.6 (Carsten Heinz)
+ lstmisc.sty    2015/06/04 1.6 (Carsten Heinz)
+listings.cfg    2015/06/04 1.6 listings configuration
+   babel.sty    2017/11/03 3.15 The Babel package
+ bblopts.cfg    2005/09/08 v0.1 add Arabic and Farsi to "declared" options of b
+abel
+ english.ldf    2017/06/06 v3.3r English support from the babel system
+inputenc.sty    2015/03/17 v1.2c Input encoding file
+  latin1.def    2015/03/17 v1.2c Input encoding file
+latexsym.sty    1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
+booktabs.sty    2005/04/14 v1.61803 publication quality tables
+beamerposter.sty    2010/11/18 v.1.12 latex-beamer poster extension
+ xkeyval.sty    2014/12/03 v2.7a package option processing (HA)
+ xkeyval.tex    2014/12/03 v2.7a key=value parser (HA)
+ type1cm.sty    2002/09/05 v0.04 BlueSky/Y&Y Type1 CM font definitions (DPC, pa
+tched RF)
+      fp.sty    1995/04/02
+defpattern.sty    1994/10/12
+fp-basic.sty    1996/05/13
+fp-addons.sty    1995/03/15
+ fp-snap.sty    1995/04/05
+  fp-exp.sty    1995/04/03
+fp-trigo.sty    1995/04/14
+  fp-pas.sty    1994/08/29
+fp-random.sty    1995/02/23
+  fp-eqn.sty    1995/04/03
+  fp-upn.sty    1996/10/21
+ fp-eval.sty    1995/04/03
+ upquote.sty    2012/04/19 v1.3 upright-quote and grave-accent glyphs in verbat
+im
+supp-pdf.mkii
+ nameref.sty    2016/05/21 v2.44 Cross-referencing by name of section
+gettitlestring.sty    2016/05/16 v1.5 Cleanup title references (HO)
+  poster.out
+  poster.out
+translator-basic-dictionary-English.dict    
+translator-bibliography-dictionary-English.dict    
+translator-environment-dictionary-English.dict    
+translator-months-dictionary-English.dict    
+translator-numbers-dictionary-English.dict    
+translator-theorem-dictionary-English.dict    
+textcomp.sty    2017/04/05 v2.0i Standard LaTeX package
+  ts1enc.def    2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+ot1mathkerncmss.fd    2013/03/27 Fontinst v1.933 font definitions for OT1/mathk
+erncmss.
+figures/LUC_vertical_notagline.png
+figures/allps.png
+figures/trace.png
+figures/posteriors.png
+figures/traces.png
+figures/table.png
+figures/miscPP.png
+figures/LUC_vertical_notagline.png
+ ***********
+
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 747.
+Package rerunfilecheck Info: File `poster.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+ ) 
+Here is how much of TeX's memory you used:
+ 30281 strings out of 493312
+ 568840 string characters out of 3128956
+ 714135 words of memory out of 3000000
+ 33256 multiletter control sequences out of 15000+200000
+ 557211 words of font info for 113 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 56i,27n,68p,10359b,1466s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/Leandra/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfon
+ts/cm/cmex10.pfb><C:/Users/Leandra/AppData/Local/Programs/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Leandra/AppData/Local/Programs/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Users/Leandra/AppData/Local
+/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Users/Leandr
+a/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss17.pfb><
+C:/Users/Leandra/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmssbx10.pfb><C:/Users/Leandra/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmssi12.pfb><C:/Users/Leandra/AppData/Local/Programs/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmssi17.pfb><C:/Users/Leandra/AppData/Local
+/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Leandr
+a/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb><
+C:/Users/Leandra/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
+symbols/msam10.pfb>
+Output written on poster.pdf (1 page, 250941 bytes).
+PDF statistics:
+ 81 PDF objects out of 1000 (max. 8388607)
+ 3 named destinations out of 1000 (max. 500000)
+ 78 words of extra memory for PDF output out of 10000 (max. 10000000)
+
