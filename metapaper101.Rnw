@@ -293,6 +293,7 @@
 
 
 \begin{document}%\linenumbers
+\SweaveOpts{concordance=TRUE}
 
 
 
@@ -309,7 +310,7 @@
 \abstract{Abstract goes here}
 
 
-{\bf Keywords}: 
+{\bf Keywords}: Bayesian Analysis, Meta-Analysis, Bayesian Regression, Missing Data, Metropolis-Hastings, Markov Chain Monte Carlo, Clinical Research
 %============================================
 %============================================
 
@@ -320,12 +321,13 @@
 
 In the history of science, the same questions are frequently studied by multiple unrelated parties. For example, Charles Darwin and Alfred Wallace, both naturalists in the 1800s, separately developed similar theories of evolution by natural selection, and published a paper together on the subject in 1858~\citep{Kuhn2013}. In a similar fashion, modern evidence-based medicine tends to be based on multiple, similar, independent studies, which then undergo meta-analysis~\citep{Haidich2010}.
 	The goal of a meta-analysis is essentially to combine the results of similar studies in order to determine some true overall parameter. One of the most common varieties seeks to determine the true effect size of an experiment on an outcome measure~\citep{Verde2010}, where effect size is simply the magnitude of the effect that a treatment has on experimental results when compared to the results of a control group (commonly a standard difference of means, odds ratio, or relative risk ratio), and the outcome measure is the quantitative result of interest~\citep{Sullivan2012}. A simple example of these concepts would be determining the amount (effect size) that Drug X (treatment) lowers blood pressure (outcome measure), as compared to placebo (control). A meta-analysis would use several of these studies together to determine what the actual impact of Drug X is on blood pressure, compared to placebo's impact.
-	The ultimate goal of this project was to develop methods of Bayesian meta-analysis that can handle missing values, including but not limited to the absence of a control group. The especial appeal of Bayesian methods lies largely in the interpretability of the results: instead of the frequentist framework that there is a fixed parameter and the data random, the Bayesian framework holds that the data are fixed and the parameters have a certain probability of being a particular value (or of being within a range of values). Thus, a frequentist might create 95\% confidence intervals around a mean, leading to an interpretation that 95\% of similarly-created intervals contain the true mean value, while the analogous Bayesian 95\% credible interval would be interpreted as the interval within which it is 95\% likely that the true mean falls.
+	The ultimate goal of this project was to develop methods of Bayesian meta-analysis that can handle missing values, including but not limited to the absence of a control group (also known as single-arm design) {\bf cite}. The especial appeal of Bayesian methods lies largely in the interpretability of the results: instead of the frequentist framework in which there is a fixed parameter and the data are random, the Bayesian framework holds that the data are fixed and the parameters have a certain probability of being a particular value (or of being within a range of values). Thus, a frequentist might create 95\% confidence intervals around a mean, leading to an interpretation that 95\% of similarly-created intervals contain the true mean value, while the analogous Bayesian 95\% credible interval would be interpreted as the interval within which it is 95\% probable that the true mean falls.
 
 %============================================
-%\section{Data}
+\section{Data}
 %============================================
 
+The data used come from $N=38$ independent studies, summarized by Orthopedic fellow at Northwestern University in Chicago, IL, Dr. Cort Daniel Lawton. Each study has its own $n_i$ number of trials (ankles) that have undergone the same type of repair surgery. 23 studies were from Total Ankle Arthroplasty (TAA) studies, 9 studies were from Open Ankle Arthrodesis (AAO) studies, and 6 were from Arthroscopic Ankle Arthrodesis (AAA) studies. Each study contained all or some of the following variables: surgery type, recruitment period, number of ankles, prosthesis type (for TAA studies), mean age, standard deviation of age, mean followup time, standard deviation of followup time, counts of various diagnosis types (post-traumatic, idiopathic, inflammatory), counts of various complication types (wound, deep infection, intra and post-operative fracture, TAA aseptic loosening/AA nonunion), counts of overall complications and of failures, counts of non-revision re-operations, counts of overall revisions, counts of revision types (to TAA, to fusion, to amputation), mean time to revision, standard deviation of time to revision, and Kaplan-Meier Survivorship Analysis.
 
 %============================================
 \section{Methods}
@@ -334,7 +336,7 @@ In the history of science, the same questions are frequently studied by multiple
 To become more comfortable with meta-analysis in practice, the decision was made to use the and ``metafor" package in R to perform simple meta-analyses on a) mean age of patients who have ankle surgery, and b) proportion of post-surgical ankle failures. 
 
 To do a meta-analysis on the mean age, the "escalc" function was used from the "metafor" package, which outputs the effect size or outcome measure for the variable(s) in question (in this case age), along with the standard deviation. This step was followed by using the rma.uni from the metafor package, which performs the meta-analysis to find the true mean age; however, this function excludes the observations with missing standard deviations~\citep{Viecht2010}, making it an inappropriate function for this research project as a whole.
-	A similar process was used to run meta-analysis on the odds of post-surgical ankle failure; this time, the measure used in the escalc function was logit transformed odds of post-surgical failure (by specifying measure= "PLO"), and the rma.uni function was able to use each study in calculating an overall failure rate - using inverse of variance to weight the contribution of each proportion~\citep{Gelman2013}.
+	A similar process was used to run meta-analysis on the odds of post-surgical ankle failure; this time, the measure used in the escalc function was logit transformed odds of post-surgical failure (by specifying measure= "PLO"), and the rma.uni function was able to use each study in calculating an overall failure rate - using inverse of variance to weight the contribution of each proportion~\citep{Gelman2013}. \emph{(Insert results here?)} Subsequently, the same process was used on three subsets of the same ankle failure data, one subset for each type of surgery.
 
 
 
